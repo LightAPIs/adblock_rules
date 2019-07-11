@@ -1,0 +1,12 @@
+! 总体
+
+/vipgg/*
+||cnzz.com^
+||addthis.com^$important,third-party,domain=~missingkids.com|~missingkids.org|~sainsburys.jobs
+||google-analytics.com/analytics.js$important,script,domain=~beinsports.com
+&action=js_stats&
+
+! 蝌蚪窝 2019.7.11
+! http://www.caca019.com/
+caca019.com###class2
+
