@@ -1,12 +1,42 @@
-! 总体
+[adblock_rules by light]
+! Homepage: http://www.sailboatweb.com
+! Title: adblock_rules by light
+! Expires: 1 days
+! Redirect: https://raw.githubusercontent.com/LightAPIs/adblock_rules/master/adblock_rules.txt?token=ALNRE32HZG5RITMGMNCW2RC5SNC76
+! version: 2019.10.1.0
 
-/vipgg/*
-||cnzz.com^
-||addthis.com^$important,third-party,domain=~missingkids.com|~missingkids.org|~sainsburys.jobs
-||google-analytics.com/analytics.js$important,script,domain=~beinsports.com
-&action=js_stats&
 
 ! 蝌蚪窝 2019.7.11
-! http://www.caca019.com/
-caca019.com###class2
+! caca019.com,caca022.com,caca023.com,caca036.com,kedousex9.com,caca021.com,pornsex20.com
+caca019.com,caca022.com,caca023.com,caca036.com,kedousex9.com,caca021.com,pornsex20.com###class2
+caca019.com,caca022.com,caca023.com,caca036.com,kedousex9.com,caca021.com,pornsex20.com##.place
+caca019.com,caca022.com,caca023.com,caca036.com,kedousex9.com,caca021.com,pornsex20.com##.right-vip
 
+! Netflav 2019.7.11
+! netflav.com
+netflav.com###video-details > div:nth-of-type(4) > div:nth-of-type(6)
+netflav.com##.block_container > div:nth-of-type(3)
+
+! 绅士撸撸 2019.7.11
+! sslulu.info
+sslulu.info##.uk-grid-small.uk-grid.uk-float-right.player-r
+sslulu.info##[src="/template/9CCMSPC/images/logo.png"]
+sslulu.info##[src="/ad/banner.jpg"]
+
+! 废柴视频网 2019.7.11
+! xinfcw.net,newfcw1.com
+xinfcw.net,newfcw1.com###layui-layer1
+xinfcw.net,newfcw1.com###layui-layer-shade1
+xinfcw.net,newfcw1.com##.dmcenterb
+
+||2345.com
+##a[href*="2345.com"]
+
+! 虎扑
+##[href*="zb.hupu.com/"]
+##[href*="racing.hupu.com/"]
+##[href*="gg.hupu.com"]
+##[href*="xgame.hupu.com/"]
+##[href*="taobao.com"]
+##[href*="run.hupu.com/"]
+##[href*="outdoor.hupu.com/"]
