@@ -3,7 +3,7 @@
 ! Title: adblock_rules by light
 ! Expires: 1 days
 ! Redirect: https://raw.githubusercontent.com/LightAPIs/adblock_rules/master/adblock_rules.txt
-! version: 2019.10.2.1
+! version: 2019.10.3.0
 
 
 ! 通用隐藏 2019.10.2
@@ -14,6 +14,7 @@
 
 ! 通用过滤 2019.10.2
 ^hongbao.jpg$image
+/scrolltop.$badfilter
 
 ! 黑科云 2019.10.2
 heikeyun.net###apkdown
@@ -63,16 +64,34 @@ hupu.com##[href*="/all-gg"]
 
 
 ! 福利吧 2019.10.2
+##[href^="https://zhizhizhi.com/"]
+##[href^="http://a.lanshu.me/"]
+##[href^="http://wpa.qq.com/msgrd"]
+##[href^="http://www.niuza.com/fenlei/shangpin/shipin/"]
+##[href^="http://www.5w52.com"]
+##[href^="http://www.niuza.com/"]
+##[href="http://www.niuza.com/fenlei/shangpin/shipin/"]
+##[href="http://www.5w52.com"]
+##[href="http://www.heimaoshe.com/"]
+##[href="http://www.ruyig.com/"]
+##[href="http://quan.fulibus.net"]
+##[href="http://shop.fulibus.net"]
+##[href="https://fulibus.net/bitqiu.html"]
+##[href="http://pay.lao4g.com/"]
 fulibus.net###focusslide
 fulibus.net##[href*="?userCode="]
-fulibus.net##[href*="https://zhizhizhi.com/"]
-fulibus.net##[href^="http://a.lanshu.me/"]
-fulibus.net##[href^="http://wpa.qq.com/msgrd"]
 fulibus.net##.asb-post-03.asb-post.asb
+fulibus.net##li:has([href*="/115.html"])
+fulibus.net##li:has([href*="/bitqiu.html"])
+
+
 
 ! 福利吧论坛 2019.10.2
+##[href^="http://www.niuza.com/"]
 wnflb66.com##.GzList
 wnflb66.com##[href*="plugin.php?id=alipaybuygroup"]
+
+
 
 ! bilibili 2019.10.2
 bilibili.com###home_popularize
@@ -205,6 +224,7 @@ douyu.com##.HeaderGif-right
 douyu.com##.HeaderGif-left
 douyu.com##.HeaderNav
 douyu.com##.layout-Cover-item:has(.AthenaBoothPanel-title)
+douyu.com##.isLink.wm-pc-imgLink
 
 ! ygo-sem.cn 2019.10.2
 ||ygo-sem.cn/images/wxpai.png$image
@@ -356,3 +376,8 @@ t66y.com##[href="http://www.339900.com"]
 t66y.com##[href="http://b23m.com/"]
 t66y.com##[href^="http://88files.net/download.html"]
 t66y.com##[href="http://www.hjav.org"]
+
+! 2019.10.3 tool.lu
+tool.lu##.js-track
+tool.lu##.js-share-bar
+tool.lu###t_fixed
