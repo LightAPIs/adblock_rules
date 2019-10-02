@@ -3,7 +3,7 @@
 ! Title: adblock_rules by light
 ! Expires: 1 days
 ! Redirect: https://raw.githubusercontent.com/LightAPIs/adblock_rules/master/adblock_rules.txt
-! version: 2019.10.3.0
+! version: 2019.10.3.1
 
 
 ! 通用隐藏 2019.10.2
@@ -38,6 +38,12 @@ heikeyun.net##a.item.with-avatar:has(div:has-text(充值VIP))
 ##[href*="goto.hupu.com"]
 ##[href*="hupuyouxuan.taobao.com"]
 ##[href*="www.shihuo.cn"]
+##[href*="www.liangle.com/"]
+##[href^="https://m.poizon.com/website/pc"]
+##[href="https://racing.hupu.com"]
+##[href="http://zb.hupu.com"]
+##[href="http://outdoor.hupu.com"]
+##[href="http://xgame.hupu.com"]
 hupu.com##[href*="taobao.com"]
 hupu.com##[href*="item.taobao.com"]
 hupu.com##.nba_er
@@ -61,6 +67,14 @@ hupu.com##[href*="/4960"]
 hupu.com##[href*="/4844"]
 hupu.com##[href*="/all-gear"]
 hupu.com##[href*="/all-gg"]
+hupu.com##[href*="/lurenwangnews"]
+hupu.com##[href*="/NBA2Konline"]
+hupu.com##[href*="/lurenwang"]
+hupu.com##[href*="/4832"]
+hupu.com##.btn-mobile.btn
+hupu.com##.hp-quickNav
+hupu.com##.dimCode
+
 
 
 ! 福利吧 2019.10.2
@@ -81,16 +95,17 @@ hupu.com##[href*="/all-gg"]
 fulibus.net###focusslide
 fulibus.net##[href*="?userCode="]
 fulibus.net##.asb-post-03.asb-post.asb
-fulibus.net##li:has([href*="/115.html"])
-fulibus.net##li:has([href*="/bitqiu.html"])
+fulibus.net##li:has(> [href*="/115.html"])
+fulibus.net##li:has(> [href*="/bitqiu.html"])
 
 
 
 ! 福利吧论坛 2019.10.2
 ##[href^="http://www.niuza.com/"]
+##[href="http://ww3.sinaimg.cn/mw690/006a0xdJgw1faxk6j4yusj30by0byq4i.jpg"]
+##[href="http://weibo.com/u/6073730937"]
 wnflb66.com##.GzList
 wnflb66.com##[href*="plugin.php?id=alipaybuygroup"]
-
 
 
 ! bilibili 2019.10.2
@@ -100,13 +115,30 @@ bilibili.com###special_recommend
 bilibili.com###live_recommand_report
 bilibili.com###activity_vote
 bilibili.com###fixed_app_download
+bilibili.com##.loc-menu.nav-item
+bilibili.com##.buy.nav-item
+bilibili.com##.live.nav-item
+bilibili.com##.game.nav-item
+bilibili.com##.side-link
+bilibili.com###bili_live
+bilibili.com##.works
+bilibili.com##.list-none.footer-img-linker
 
-! 异次元 2019.10.2
+! 异次元 2019.10.3
+##[href="https://iplayx.taobao.com"]
+##[href="https://www.iplaysoft.com/tag/store"]
+##[href^="https://www.iplaysoft.com/go/"]
 iplaysoft.com###section_hot
 iplaysoft.com###share_toolbar
+iplaysoft.com##.widget_fullwidth
+iplaysoft.com###sidebar_scroll
+iplaysoft.com###elevator_social_btn
+iplaysoft.com##.popDonate.ipsicon-coffie.ipsicon
+iplaysoft.com###elevator_phone_btn
 
 ! 小众软件 2019.10.2
 appinn.com###noranshow
+appinn.com##.clearfix.featured-section
 
 ! 大眼仔旭 2019.10.2
 dayanzai.me##.down_show_intro_first_box
@@ -124,8 +156,12 @@ yeyulingfeng.com##[src="picture/alipay_redpacket_2.png"]
 translate.google.*##.focus-wrapper.tlid-app-download-bar
 
 ! 差错网 2019.10.2
+##[href="http://doc.chacuo.net/dashang"]
 24mail.chacuo.net##.flash.animated.menu
 24mail.chacuo.net##.foot_copy > .menu
+24mail.chacuo.net##.menu:has-text(红包)
+24mail.chacuo.net##.menu:has-text(公众号)
+
 
 ! userstyles.org 2019.10.2
 userstyles.org##.overlay_background
@@ -165,12 +201,15 @@ baidu.com##.video-originate-container
 
 ! 豆瓣 2019.10.2
 douban.com###landing-bar
+douban.com##.mod.contact
+douban.com##.lnk-doubanapp
 
 ! jQeury中文文档 2019.10.2
 jquery.cuishifeng.cn###btm-con2
 jquery.cuishifeng.cn##.dialog-main
 jquery.cuishifeng.cn###free-dialog
 jquery.cuishifeng.cn###main-notify
+jquery.cuishifeng.cn###ali-dialog
 
 ! 爱奇艺 2019.10.2
 iqiyi.com##.vpro-banner
@@ -241,6 +280,7 @@ v.qq.com##.mod_scene_change
 sports.qq.com##.activity-notice
 
 ! 殁漂遥 2019.10.2
+##[href="http://www.404le.com/"]
 mpyit.com##[href*="http://soulemo.com/"]
 mpyit.com##[href="https://wx4.sinaimg.cn/large/4c929964ly1furs0a32ulj20ln0cljtl.jpg"]
 mpyit.com##[href*="https://www.404le.com"]
@@ -251,6 +291,7 @@ mpyit.com##div.post.type-post.status-publish.format-standard.sticky.hentry
 mpyit.com##[href^="https://www.rjsos.com/transfer/laomo2/mindex"]
 mpyit.com##.entry_box_s > .cboxElement
 mpyit.com##[href="http://www.guizume.com"]
+mpyit.com##.logo_box
 
 ! 低端影视 2019.10.2
 ddrk.me##.gaogu
@@ -310,6 +351,9 @@ ypojie.com##[href^="https://www.aliyun.com/acts/limit-buy"]
 ypojie.com##[href^="https://www.aliyun.com/acts/hotsale"]
 ypojie.com##.affix-top.widget_media_image.widget
 ypojie.com##.alignnone
+ypojie.com##.more
+ypojie.com##.excerpt-sticky.excerpt-1.excerpt
+ypojie.com##.excerpt-sticky.excerpt-2.excerpt
 
 ! 草榴 2019.10.2
 ||www.yuoimg.com/u/20190506/21140324.jpg$image
@@ -377,7 +421,17 @@ t66y.com##[href="http://b23m.com/"]
 t66y.com##[href^="http://88files.net/download.html"]
 t66y.com##[href="http://www.hjav.org"]
 
-! 2019.10.3 tool.lu
+! tool.lu 2019.10.3
 tool.lu##.js-track
 tool.lu##.js-share-bar
 tool.lu###t_fixed
+
+! 坚果云 2019.10.3
+jianguoyun.com##.active.bar-item
+
+! 卡饭 2019.10.3
+kafan.cn##[href="https://bbs.kafan.cn/"]
+kafan.cn##[href^="connect.php"]
+
+! Greasy Fork 2019.10.3
+##[href^="/zh-CN/forum/discussions/feed.rss"]
