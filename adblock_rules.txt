@@ -2,8 +2,8 @@
 ! Homepage: http://www.sailboatweb.com
 ! Title: adblock_rules by light
 ! Expires: 1 days
-! Redirect: https://raw.githubusercontent.com/LightAPIs/adblock_rules/master/adblock_rules.txt?token=ALNRE32HZG5RITMGMNCW2RC5SNC76
-! version: 2019.10.2.0
+! Redirect: https://raw.githubusercontent.com/LightAPIs/adblock_rules/master/adblock_rules.txt
+! version: 2019.10.2.1
 
 
 ! 通用隐藏 2019.10.2
