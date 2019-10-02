@@ -3,7 +3,7 @@
 ! Title: adblock_rules by light
 ! Expires: 1 days
 ! Redirect: https://raw.githubusercontent.com/LightAPIs/adblock_rules/master/adblock_rules.txt
-! version: 2019.10.3.1
+! version: 2019.10.3.2
 
 
 ! 通用隐藏 2019.10.2
@@ -205,11 +205,17 @@ douban.com##.mod.contact
 douban.com##.lnk-doubanapp
 
 ! jQeury中文文档 2019.10.2
+##[href="http://www.cuishifeng.cn/go/tao"]
+##[href="http://www.cuishifeng.cn/go/linode2"]
 jquery.cuishifeng.cn###btm-con2
 jquery.cuishifeng.cn##.dialog-main
 jquery.cuishifeng.cn###free-dialog
 jquery.cuishifeng.cn###main-notify
 jquery.cuishifeng.cn###ali-dialog
+jquery.cuishifeng.cn##.top-head-img
+
+! CSS 参考手册 2019.10.3
+##[href="http://www.cuishifeng.cn/go/card"]
 
 ! 爱奇艺 2019.10.2
 iqiyi.com##.vpro-banner
@@ -316,6 +322,8 @@ javlibrary.com##.media.twitter-share-button
 javlibrary.com##.socialmedia
 
 ! minnano-av 2019.10.2
+||www.minnano-av.com/top_center_bn/pc_new_ban/sidebar_bn_*.html
+||www.minnano-av.com/*_bn
 minnano-av.com##.bn250
 
 ! mvcat.com 2019.7.6
@@ -435,3 +443,8 @@ kafan.cn##[href^="connect.php"]
 
 ! Greasy Fork 2019.10.3
 ##[href^="/zh-CN/forum/discussions/feed.rss"]
+
+! erodougazo.com 2019.10.3
+||erodougazo.com/img/vrsm-*.jpg
+||dmm.co.jp/litevideo^$frame
+erodougazo.com##dt.vrd
