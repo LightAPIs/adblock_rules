@@ -3,40 +3,356 @@
 ! Title: adblock_rules by light
 ! Expires: 1 days
 ! Redirect: https://raw.githubusercontent.com/LightAPIs/adblock_rules/master/adblock_rules.txt?token=ALNRE32HZG5RITMGMNCW2RC5SNC76
-! version: 2019.10.1.0
+! version: 2019.10.2.0
 
 
-! 蝌蚪窝 2019.7.11
-! caca019.com,caca022.com,caca023.com,caca036.com,kedousex9.com,caca021.com,pornsex20.com
-caca019.com,caca022.com,caca023.com,caca036.com,kedousex9.com,caca021.com,pornsex20.com###class2
-caca019.com,caca022.com,caca023.com,caca036.com,kedousex9.com,caca021.com,pornsex20.com##.place
-caca019.com,caca022.com,caca023.com,caca036.com,kedousex9.com,caca021.com,pornsex20.com##.right-vip
+! 通用隐藏 2019.10.2
+###ad_video
+###ad_pop
+##.ad-site
+##.ad-pc
 
-! Netflav 2019.7.11
-! netflav.com
-netflav.com###video-details > div:nth-of-type(4) > div:nth-of-type(6)
-netflav.com##.block_container > div:nth-of-type(3)
+! 通用过滤 2019.10.2
+^hongbao.jpg$image
 
-! 绅士撸撸 2019.7.11
-! sslulu.info
-sslulu.info##.uk-grid-small.uk-grid.uk-float-right.player-r
-sslulu.info##[src="/template/9CCMSPC/images/logo.png"]
-sslulu.info##[src="/ad/banner.jpg"]
+! 黑科云 2019.10.2
+heikeyun.net###apkdown
+heikeyun.net###apkad
+heikeyun.net##a.item.with-avatar:has(#lblgg)
+heikeyun.net##a.item.with-avatar:has(div:has-text(充值VIP))
 
-! 废柴视频网 2019.7.11
-! xinfcw.net,newfcw1.com
-xinfcw.net,newfcw1.com###layui-layer1
-xinfcw.net,newfcw1.com###layui-layer-shade1
-xinfcw.net,newfcw1.com##.dmcenterb
+! 2345.com 2019.10.2
+||2345.com^
+##[href*="2345.com"]
 
-||2345.com
-##a[href*="2345.com"]
-
-! 虎扑
+! 虎扑 2019.10.2
 ##[href*="zb.hupu.com/"]
 ##[href*="racing.hupu.com/"]
 ##[href*="gg.hupu.com"]
 ##[href*="xgame.hupu.com/"]
-##[href*="taobao.com"]
 ##[href*="run.hupu.com/"]
 ##[href*="outdoor.hupu.com/"]
+##[href*="mobile.hupu.com"]
+##[href*="hupujrs.taobao.com"]
+##[href*="goto.hupu.com"]
+##[href*="hupuyouxuan.taobao.com"]
+##[href*="www.shihuo.cn"]
+hupu.com##[href*="taobao.com"]
+hupu.com##[href*="item.taobao.com"]
+hupu.com##.nba_er
+hupu.com##.jrslink
+hupu.com##.nba-hupu-shows
+hupu.com##.nba-hupu-shihuo
+hupu.com##.back-to-top-holder
+hupu.com##.shihuo-hot-floor.gd-floor
+hupu.com##.item-flag.shihuo-item
+hupu.com##.game-floor.gd-floor
+hupu.com##.item-flag.passby-item
+hupu.com##[href*="/finance"]
+hupu.com##[href*="/cars"]
+hupu.com##[href*="/4836"]
+hupu.com##[href*="/4845"]
+hupu.com##[href*="/game"]
+hupu.com##[href*="/love"]
+hupu.com##[href*="/literature"]
+hupu.com##[href*="/xuefu"]
+hupu.com##[href*="/4960"]
+hupu.com##[href*="/4844"]
+hupu.com##[href*="/all-gear"]
+hupu.com##[href*="/all-gg"]
+
+
+! 福利吧 2019.10.2
+fulibus.net###focusslide
+fulibus.net##[href*="?userCode="]
+fulibus.net##[href*="https://zhizhizhi.com/"]
+fulibus.net##[href^="http://a.lanshu.me/"]
+fulibus.net##[href^="http://wpa.qq.com/msgrd"]
+fulibus.net##.asb-post-03.asb-post.asb
+
+! 福利吧论坛 2019.10.2
+wnflb66.com##.GzList
+wnflb66.com##[href*="plugin.php?id=alipaybuygroup"]
+
+! bilibili 2019.10.2
+bilibili.com###home_popularize
+bilibili.com##.mobile.nav-item
+bilibili.com###special_recommend
+bilibili.com###live_recommand_report
+bilibili.com###activity_vote
+bilibili.com###fixed_app_download
+
+! 异次元 2019.10.2
+iplaysoft.com###section_hot
+iplaysoft.com###share_toolbar
+
+! 小众软件 2019.10.2
+appinn.com###noranshow
+
+! 大眼仔旭 2019.10.2
+dayanzai.me##.down_show_intro_first_box
+dayanzai.me##[href*="dayanzai.me/computer"]
+
+! 夜雨聆风 2019.10.2
+yeyulingfeng.com##.affix-top
+yeyulingfeng.com###gg
+yeyulingfeng.com##.dandelion
+yeyulingfeng.com##[href*="https://www.diyihuifu.com/"]
+yeyulingfeng.com##.asb-post-01.asb-post.asb
+yeyulingfeng.com##[src="picture/alipay_redpacket_2.png"]
+
+! 谷歌翻译 2019.10.2
+translate.google.*##.focus-wrapper.tlid-app-download-bar
+
+! 差错网 2019.10.2
+24mail.chacuo.net##.flash.animated.menu
+24mail.chacuo.net##.foot_copy > .menu
+
+! userstyles.org 2019.10.2
+userstyles.org##.overlay_background
+userstyles.org##.android_button_banner
+userstyles.org###top_android_button
+userstyles.org##div:has(:scope > .fallbackDiv)
+
+! POCO摄影社区 2019.10.2
+poco.cn##.w_pui_af_float
+poco.cn##.app_down_area_mod
+poco.cn###j-pui-down-app-bar
+
+! 峰鸟网 2019.10.2
+fengniao.com###ershou
+fengniao.com##.wrapper.newsBox
+fengniao.com##.menu03
+
+! 太平洋摄影 2019.10.2
+dp.pconline.com.cn###JwxQrcodeFix
+dp.pconline.com.cn##.artOpenShare
+dp.pconline.com.cn##.lnav.pc-share
+itbbs.pconline.com.cn##.poptip
+
+! 原创馆 2019.10.2
+ycg.qq.com##.share-list
+
+
+! 百度贴吧 2019.10.2
+tieba.baidu.com##.tbui_fbar_down.tbui_aside_fbar_button
+
+! 百度经验 2019.10.2
+baidu.com##.video-originate-container
+
+! 百度网盘 2019.10.2
+||baidupan.cdn.bcebos.com/baidu_share.png$image
+
+
+! 豆瓣 2019.10.2
+douban.com###landing-bar
+
+! jQeury中文文档 2019.10.2
+jquery.cuishifeng.cn###btm-con2
+jquery.cuishifeng.cn##.dialog-main
+jquery.cuishifeng.cn###free-dialog
+jquery.cuishifeng.cn###main-notify
+
+! 爱奇艺 2019.10.2
+iqiyi.com##.vpro-banner
+iqiyi.com##.anchor-integral
+iqiyi.com##.detail-sd
+
+! 3DM 2019.10.2
+||yeyou.3dmgame.com^
+||shouyou.3dmgame.com^
+||ol.3dmgame.com^
+||3dmgame.taobao.com^
+||3dmgame.com/bagua^
+||web.3dmgame.com^
+3dmgame.com##[href*="yeyou.3dmgame.com"]
+3dmgame.com##[href*="shouyou.3dmgame.com"]
+3dmgame.com##[href*="ol.3dmgame.com"]
+3dmgame.com##[href*="web.3dmgame.com"]
+3dmgame.com##[href*="item.taobao.com"]
+3dmgame.com##[href*="3dmgame.taobao.com"]
+3dmgame.com##li:has([href*="yeyou.3dmgame.com"])
+3dmgame.com##li:has([href*="shouyou.3dmgame.com"])
+3dmgame.com##li:has([href*="ol.3dmgame.com"])
+3dmgame.com##li:has([href*="3dmgame.taobao.com"])
+3dmgame.com##li:has([href*="3dmgame.com/bagua/"])
+3dmgame.com##div:has(:scope > p:has-text(手游大作))
+3dmgame.com##div:has(:scope > p:has-text(大型网游))
+3dmgame.com##div:has(:scope > p:has-text(推荐页游))
+3dmgame.com##div:has(:scope > [href*="item.taobao.com"])
+3dmgame.com##.Med-info
+3dmgame.com##.zzswrap
+3dmgame.com##.tpwrap
+3dmgame.com##.Min_5
+3dmgame.com##.Min_6
+3dmgame.com##.Min_7
+3dmgame.com##.Min_8
+3dmgame.com##.mg_bt30.dj_warp_d
+3dmgame.com##.mg_bt30.dj_warp_e
+3dmgame.com##.list_b
+3dmgame.com##.ycnr_warp
+
+! 斗鱼 2019.10.2
+||wan.douyu.com^
+##[href*="wan.douyu.com"]
+douyu.com##.Recommend-wrapper
+douyu.com##.AthenaBoothPanel-wrapper
+douyu.com##.Aside-tool
+douyu.com##.layout-Cover--withAside-container
+douyu.com##.layout-Cover--withAside-aside
+douyu.com##.Prompt-container
+douyu.com##.HeaderGif-right
+douyu.com##.HeaderGif-left
+douyu.com##.HeaderNav
+douyu.com##.layout-Cover-item:has(.AthenaBoothPanel-title)
+
+! ygo-sem.cn 2019.10.2
+||ygo-sem.cn/images/wxpai.png$image
+ygo-sem.cn###idadkillsho
+ygo-sem.cn##.wdev-window.move.wdpu-msg.popup.resize
+ygo-sem.cn###popup
+ygo-sem.cn##.recommend
+
+
+! 腾讯视频 2019.10.2
+v.qq.com##.mod_scene_change
+
+! 腾讯体育 2019.10.2
+sports.qq.com##.activity-notice
+
+! 殁漂遥 2019.10.2
+mpyit.com##[href*="http://soulemo.com/"]
+mpyit.com##[href="https://wx4.sinaimg.cn/large/4c929964ly1furs0a32ulj20ln0cljtl.jpg"]
+mpyit.com##[href*="https://www.404le.com"]
+mpyit.com##[href="https://www.mpyit.com/buyidm.html"]
+mpyit.com##[href="https://www.mpyit.com/buyoffice.html"]
+mpyit.com##[href="https://www.mpyit.com/buywin10.html"]
+mpyit.com##div.post.type-post.status-publish.format-standard.sticky.hentry
+mpyit.com##[href^="https://www.rjsos.com/transfer/laomo2/mindex"]
+mpyit.com##.entry_box_s > .cboxElement
+mpyit.com##[href="http://www.guizume.com"]
+
+! 低端影视 2019.10.2
+ddrk.me##.gaogu
+
+! w3school 2019.10.2
+w3school.com.cn###ad
+w3school.com.cn###sps_1_link
+w3school.com.cn###sp_header
+
+! 141JJ 2019.10.2
+141jj.com##[href*="https://www.qzav.app/"]
+141jj.com##[href*="http://www.mozaotw.com/"]
+141jj.com##[href*="http://www.lolinya.net/"]
+141jj.com##[href*="http://ty2.life"]
+141jj.com##[href*="https://app.kudichi.cn/"]
+141jj.com##[href*="http://9269av.co/"]
+
+! javlibrary 2019.10.2
+javlibrary.com###bottombanner12
+javlibrary.com###topbanner11
+javlibrary.com##.media.twitter-share-button
+javlibrary.com##.socialmedia
+
+! minnano-av 2019.10.2
+minnano-av.com##.bn250
+
+! mvcat.com 2019.7.6
+! 解决屏蔽问题
+~mvcat.com##.scrollTop
+mvcat.com###popImg
+mvcat.com###popImgMask
+
+! CSDN 2019.10.2
+blog.csdn.net##.login-mark
+blog.csdn.net###passportbox
+
+! PPTV 2019.10.2
+v.pptv.com##.img-bg
+v.pptv.com###video-download-game
+v.pptv.com##.download
+v.pptv.com##.download-iconbar
+
+! developer.mozilla.org 2019.10.2
+developer.mozilla.org###developer_needs
+
+! 音悦台 2019.10.2
+v.yinyuetai.com##.tovip
+v.yinyuetai.com##.guideBox
+v.yinyuetai.com##.gbox
+
+! 壁纸酷 2019.10.2
+bizhiku.net##.top-hz.auto
+bizhiku.net##.top-hz.pic-auto
+
+! 易破解 2019.10.2
+ypojie.com##[href^="https://www.aliyun.com/acts/limit-buy"]
+ypojie.com##[href^="https://www.aliyun.com/acts/hotsale"]
+ypojie.com##.affix-top.widget_media_image.widget
+ypojie.com##.alignnone
+
+! 草榴 2019.10.2
+||www.yuoimg.com/u/20190506/21140324.jpg$image
+||www.yuoimg.com/u/20190503/07165337.gif$image
+||www.skuimg.com/u/20190321/12364092.jpg$image
+||img09.cweb-pix.com/images^$image,domain=t66y.com
+||dioimg.net^$image,domain=t66y.com
+||oi63.tinypic.com^$image,domain=t66y.com
+||oi67.tinypic.com^$image,domain=t66y.com
+||ww4.sinaimg.cn^$image,domain=t66y.com
+||wx1.sinaimg.cn^$image,domain=t66y.com
+||img.alicdn.com/imgextra^$image,domain=t66y.com
+t66y.com###iframe1
+t66y.com###iframe2
+t66y.com###iframe3
+t66y.com###iframe4
+t66y.com###iframe5
+t66y.com##[href*="http://dsqp.in/"]
+t66y.com##[href^="http://www.111pan.com/file/"]
+t66y.com##[href*="http://promotion.dh88a.com"]
+t66y.com##[href*="http://8008586878.com"]
+t66y.com##[href^="http://suncityad.com"]
+t66y.com##[href^="http://www.kxm9999.com"]
+t66y.com##[href*="http://uu637.com"]
+t66y.com##[href^="http://bitspirit.s602.xrea.com"]
+t66y.com##[href="http://goo.gl/eojisp"]
+t66y.com##[href^="http://www.yp29.com"]
+t66y.com##[href^="http://www.511yug.com"]
+t66y.com##[href^="http://www.e22f.com"]
+t66y.com##[href^="http://www.xa789.com"]
+t66y.com##[href^="http://www.yunfile.com/user/vip"]
+t66y.com##[href^="http://www.365shares.net/storage/"]
+t66y.com##[href^="http://mo1188.net"]
+t66y.com##[href^="http://mws3032.tk"]
+t66y.com##[href^="http://zdpdfb.co/"]
+t66y.com##[href^="http://www.gueizu.com/"]
+t66y.com##[href^="http://javddmo.net"]
+t66y.com##[href^="http://91thd.vip"]
+t66y.com##[href^="http://vip9987.com"]
+t66y.com##[href^="http://www.khg56.com"]
+t66y.com##a:has-text(我已了解這是外部網站,并同意加載)
+t66y.com##[href^="http://rrrapk.com"]
+t66y.com##[href^="http://qqxbt.com"]
+t66y.com##[href^="http://www.3502666.com"]
+t66y.com##[href^="http://dafacai-99x99.com"]
+t66y.com##[href^="http://958buy.com"]
+t66y.com##[href^="http://pj.792079207920.com"]
+t66y.com##[href^="http://jbc568.com"]
+t66y.com##[href^="http://91imv.com"]
+t66y.com##[href^="http://wwddxv.com/Index"]
+t66y.com##[href^="http://wwdda.com"]
+t66y.com##[href^="http://UUM29.COM"]
+t66y.com##[href^="http://78AAY.com"]
+t66y.com##[href^="http://AAYY3.COM/"]
+t66y.com##[href^="http://AAYY3.COM"]
+t66y.com##[href^="http://YP29.COM/"]
+t66y.com##[href^="http://movieppp.com"]
+t66y.com##[href^="http://www.rmdown.com/link.php"]
+t66y.com##[href^="http://www.aae3.com/"]
+t66y.com##[href^="http://rmdown.com/link.php"]
+t66y.com##[href^="http://yaoshe74.com"]
+t66y.com##[href^="http://www.luludown.info/jd.php"]
+t66y.com##[href="http://www.339900.com"]
+t66y.com##[href="http://b23m.com/"]
+t66y.com##[href^="http://88files.net/download.html"]
+t66y.com##[href="http://www.hjav.org"]
