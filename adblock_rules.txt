@@ -3,7 +3,7 @@
 ! Title: adblock_rules by light
 ! Expires: 1 days
 ! Redirect: https://raw.githubusercontent.com/LightAPIs/adblock_rules/master/adblock_rules.txt
-! version: 2019.10.4.2
+! version: 2019.10.4.3
 
 
 ! 通用隐藏 2019.10.2
@@ -171,7 +171,7 @@ userstyles.org##div:has(:scope > .fallbackDiv)
 
 ! POCO摄影社区 2019.10.2
 ||static-c.pocoimg.cn/project/poco_new_pc/prod/online/image/widget/poco_footer/i/code-img_*.png
-##[href="http://www.poco.cn/app/photo"]
+##[href*="www.poco.cn/app/"]
 poco.cn##.w_pui_af_float
 poco.cn##.app_down_area_mod
 poco.cn###j-pui-down-app-bar
@@ -179,6 +179,8 @@ poco.cn##.cc_server
 poco.cn##.cc_download
 poco.cn##.icon-verified.iconfont
 poco.cn##.cc_share_btn
+poco.cn##a:has(.iconfont.icon-verified)
+poco.cn##span.cc_hover_handle.cc_nav_discover
 
 
 ! 峰鸟网 2019.10.2
