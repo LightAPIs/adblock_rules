@@ -3,7 +3,7 @@
 ! Title: adblock_rules by light
 ! Expires: 1 days
 ! Redirect: https://raw.githubusercontent.com/LightAPIs/adblock_rules/master/adblock_rules.txt
-! version: 2019.10.4.0
+! version: 2019.10.4.1
 
 
 ! 通用隐藏 2019.10.2
@@ -315,12 +315,45 @@ w3school.com.cn###sps_1_link
 w3school.com.cn###sp_header
 
 ! 141JJ 2019.10.2
-141jj.com##[href*="https://www.qzav.app/"]
-141jj.com##[href*="http://www.mozaotw.com/"]
-141jj.com##[href*="http://www.lolinya.net/"]
-141jj.com##[href*="http://ty2.life"]
-141jj.com##[href*="https://app.kudichi.cn/"]
-141jj.com##[href*="http://9269av.co/"]
+||seal.godaddy.com^$script,image,domain=141jj.com
+||upload.cc/i1/2019/09/09/OP6atw.gif$image
+141jj.com##[href*="sr5el.com"]
+141jj.com##[href*="69.run"]
+141jj.com##[href*="qzav.app"]
+141jj.com##[href*="mozaotw.com"]
+141jj.com##[href*="lolinya.net"]
+141jj.com##[href*="ty2.life"]
+141jj.com##[href*="kudichi.cn"]
+141jj.com##[href*="9269av.co"]
+141jj.com##[href*="99cl.me"]
+141jj.com##[href*="uus32.com"]
+141jj.com##[href*="qzav1.app"]
+141jj.com##[href*="trwl1.com"]
+141jj.com##[href*="porn5f.co"]
+141jj.com##[href*="ava6677.com"]
+141jj.com##[href*="168168988.com"]
+141jj.com##[href*="520cc.cc"]
+141jj.com##[href*="airav.vip"]
+141jj.com##[href*="javdove2.site"]
+141jj.com##[href*="uus39.com"]
+141jj.com##[href*="bit.ly"]
+141jj.com##[href*="iqq.biz"]
+141jj.com##[href*="lihi.pro"]
+141jj.com##[href*="ty7.life"]
+141jj.com##[href*="5238.me"]
+141jj.com##[href*="pengba11.com"]
+141jj.com##[href*="uus35.com"]
+141jj.com##[href*="uux92.com"]
+141jj.com##[href*="iwant-sex.com"]
+141jj.com##[href*="uuk63.com"]
+141jj.com##[href*="uut37.com"]
+141jj.com##[href*="ffa25.com"]
+141jj.com##[href*="uuk29.com"]
+141jj.com##[href*="uuk65.com/"]
+141jj.com##[href*="bhjdb.com"]
+141jj.com##[href*="ffa28.com"]
+141jj.com##[href*="uux98.com"]
+141jj.com##[href*="sexfunhk.com"]
 
 ! javlibrary 2019.10.2
 javlibrary.com###bottombanner12
@@ -380,6 +413,10 @@ ypojie.com##.excerpt-sticky.excerpt-2.excerpt
 ||oi67.tinypic.com^$image,domain=t66y.com
 ||sinaimg.cn^$image,domain=t66y.com
 ||img.alicdn.com/imgextra^$image,domain=t66y.com
+||www.touimg.com^$image,domain=t66y.com
+||sc02.alicdn.com^$image,domain=t66y.com
+||sc01.alicdn.com^$image,domain=t66y.com
+||cbu01.alicdn.com^$image,domain=t66y.com
 t66y.com###iframe1
 t66y.com###iframe2
 t66y.com###iframe3
@@ -448,6 +485,11 @@ t66y.com##[href*="77file.com"]
 t66y.com##[href*="finedac.com"]
 t66y.com##[href*="nicedac.com"]
 t66y.com##[href*="91thd.me"]
+t66y.com##[href*="qqupload.com"]
+t66y.com##[href*="dufile.com"]
+t66y.com##[href*="sbkapk.com"]
+t66y.com##[href*="motelppp.com"]
+
 
 ! tool.lu 2019.10.3
 tool.lu##.js-track
