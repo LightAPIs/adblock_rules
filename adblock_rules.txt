@@ -3,7 +3,7 @@
 ! Title: adblock_rules by light
 ! Expires: 1 days
 ! Redirect: https://raw.githubusercontent.com/LightAPIs/adblock_rules/master/adblock_rules.txt
-! version: 2019.10.4.3
+! version: 2019.10.4.4
 
 
 ! 通用隐藏 2019.10.2
@@ -181,6 +181,7 @@ poco.cn##.icon-verified.iconfont
 poco.cn##.cc_share_btn
 poco.cn##a:has(.iconfont.icon-verified)
 poco.cn##span.cc_hover_handle.cc_nav_discover
+poco.cn##.fr.rbox
 
 
 ! 峰鸟网 2019.10.2
