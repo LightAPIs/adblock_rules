@@ -3,7 +3,7 @@
 ! Title: adblock_rules by light
 ! Expires: 1 days
 ! Redirect: https://raw.githubusercontent.com/LightAPIs/adblock_rules/master/adblock_rules.txt
-! version: 2019.10.4.1
+! version: 2019.10.4.2
 
 
 ! 通用隐藏 2019.10.2
@@ -510,3 +510,9 @@ kafan.cn##[href^="connect.php"]
 ||erodougazo.com/img/vrsm-*.jpg
 ||dmm.co.jp/litevideo^$frame
 erodougazo.com##dt.vrd
+
+! netflav.com 2019.10.4
+netflav.com##div[style*="width:728px;"]
+netflav.com##[href*="adxadtracker.com"]
+netflav.com##.hoverPointer
+netflav.com##div[style*="display: flex;"][style*="justify-content: center;"]
