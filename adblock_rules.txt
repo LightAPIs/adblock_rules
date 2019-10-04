@@ -3,7 +3,7 @@
 ! Title: adblock_rules by light
 ! Expires: 1 days
 ! Redirect: https://raw.githubusercontent.com/LightAPIs/adblock_rules/master/adblock_rules.txt
-! version: 2019.10.4.4
+! version: 2019.10.4.5
 
 
 ! 通用隐藏 2019.10.2
@@ -239,6 +239,7 @@ iqiyi.com##.detail-sd
 ||3dmgame.taobao.com^
 ||3dmgame.com/bagua^
 ||web.3dmgame.com^
+||www.3dmgame.com/static/api/js/share.js$script,first-party
 3dmgame.com##[href*="yeyou.3dmgame.com"]
 3dmgame.com##[href*="shouyou.3dmgame.com"]
 3dmgame.com##[href*="ol.3dmgame.com"]
@@ -519,3 +520,8 @@ netflav.com##div[style*="width:728px;"]
 netflav.com##[href*="adxadtracker.com"]
 netflav.com##.hoverPointer
 netflav.com##div[style*="display: flex;"][style*="justify-content: center;"]
+
+! 2019/10/4 http://www.xitongtiandi.net
+xitongtiandi.net##.affix-top.widget_ui_textasb.widget
+xitongtiandi.net##div.widget_ui_textasb.widget
+xitongtiandi.net##[href*="/wenzhang/win10/31574.html"]
