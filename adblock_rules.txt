@@ -3,7 +3,7 @@
 ! Title: adblock_rules by light
 ! Expires: 1 days
 ! Redirect: https://raw.githubusercontent.com/LightAPIs/adblock_rules/master/adblock_rules.txt
-! version: 2019.10.4.5
+! version: 2019.10.5.0
 
 
 ! 通用隐藏 2019.10.2
@@ -296,6 +296,12 @@ v.qq.com##.mod_scene_change
 ! 腾讯体育 2019.10.2
 sports.qq.com##.activity-notice
 
+! 英雄联盟 2019.10.5
+||game.gtimg.cn/images/lpl/es/web201612/*g
+lpl.qq.com###top_gg_pic
+lpl.qq.com##.modeBanner
+lpl.qq.com###float
+
 ! 殁漂遥 2019.10.2
 ##[href="http://www.404le.com/"]
 mpyit.com##[href*="http://soulemo.com/"]
@@ -525,3 +531,8 @@ netflav.com##div[style*="display: flex;"][style*="justify-content: center;"]
 xitongtiandi.net##.affix-top.widget_ui_textasb.widget
 xitongtiandi.net##div.widget_ui_textasb.widget
 xitongtiandi.net##[href*="/wenzhang/win10/31574.html"]
+
+
+! 2019/10/4 http://tools.bugscaner.com
+||cdn.bugscaner.com/juming/*.jpg$image
+bugscaner.com###item-box
