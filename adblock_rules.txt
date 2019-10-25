@@ -3,7 +3,7 @@
 ! Title: adblock_rules by light
 ! Expires: 1 days
 ! Redirect: https://raw.githubusercontent.com/LightAPIs/adblock_rules/master/adblock_rules.txt
-! version: 2019.10.5.0
+! version: 2019.10.25.0
 
 
 ! 通用隐藏 2019.10.2
@@ -135,6 +135,7 @@ iplaysoft.com###sidebar_scroll
 iplaysoft.com###elevator_social_btn
 iplaysoft.com##.popDonate.ipsicon-coffie.ipsicon
 iplaysoft.com###elevator_phone_btn
+iplaysoft.com##.elevator
 
 ! 小众软件 2019.10.2
 appinn.com###noranshow
@@ -303,6 +304,7 @@ lpl.qq.com##.modeBanner
 lpl.qq.com###float
 
 ! 殁漂遥 2019.10.2
+||i.loli.net/2019/10/11/gKzuqMiDpAV2Y1B.gif$image
 ##[href="http://www.404le.com/"]
 mpyit.com##[href*="http://soulemo.com/"]
 mpyit.com##[href="https://wx4.sinaimg.cn/large/4c929964ly1furs0a32ulj20ln0cljtl.jpg"]
@@ -315,6 +317,7 @@ mpyit.com##[href^="https://www.rjsos.com/transfer/laomo2/mindex"]
 mpyit.com##.entry_box_s > .cboxElement
 mpyit.com##[href="http://www.guizume.com"]
 mpyit.com##.logo_box
+
 
 ! 低端影视 2019.10.2
 ddrk.me##.gaogu
@@ -499,6 +502,30 @@ t66y.com##[href*="qqupload.com"]
 t66y.com##[href*="dufile.com"]
 t66y.com##[href*="sbkapk.com"]
 t66y.com##[href*="motelppp.com"]
+t66y.com##[href*="bet.3136531365.com"]
+t66y.com##[href*="www.3001666.com"]
+t66y.com##[href*="11-22-33.com"]
+t66y.com##[href*="ch368.com"]
+t66y.com##[href*="3pvip2.com"]
+t66y.com##[href*="www.7yh3.com"]
+t66y.com##[href*="www.40088282.com"]
+t66y.com##[href*="667um.com"]
+t66y.com##[href*="jsc125.com"]
+t66y.com##[href*="h8377.com"]
+t66y.com##[href*="fh222.cc"]
+t66y.com##[href*="pj.772077207720.com"]
+t66y.com##[href*="www.dj134.com"]
+t66y.com##[href*="www.bg8005.com"]
+t66y.com##[href*="a67x.com"]
+t66y.com##[href*="uuk52.com"]
+t66y.com##[href*="uuk36.com"]
+t66y.com##[href*="uuk37.com"]
+t66y.com##[href*="ev997.com"]
+t66y.com##[href*="567qp2222.com"]
+t66y.com##[href*="jsc688.cc"]
+t66y.com##[href*="www.88xy3.com"]
+t66y.com##[href*="uuv86.com"]
+t66y.com##[href*="uuv87.com"]
 
 
 ! tool.lu 2019.10.3
@@ -522,10 +549,13 @@ kafan.cn##[href^="connect.php"]
 erodougazo.com##dt.vrd
 
 ! netflav.com 2019.10.4
+||nftvsrc.s3-ap-northeast-1.amazonaws.com/91/ads_player.gif$image
+||nftvsrc.s3-ap-northeast-1.amazonaws.com/91/ads_desktop.gif$image
 netflav.com##div[style*="width:728px;"]
 netflav.com##[href*="adxadtracker.com"]
 netflav.com##.hoverPointer
 netflav.com##div[style*="display: flex;"][style*="justify-content: center;"]
+netflav.com##.ads_video_overlay_mobile
 
 ! 2019/10/4 http://www.xitongtiandi.net
 xitongtiandi.net##.affix-top.widget_ui_textasb.widget
@@ -536,3 +566,67 @@ xitongtiandi.net##[href*="/wenzhang/win10/31574.html"]
 ! 2019/10/4 http://tools.bugscaner.com
 ||cdn.bugscaner.com/juming/*.jpg$image
 bugscaner.com###item-box
+
+! 2019/10/7 https://www.windows10.pro
+||www.windows10.pro/wp-content/themes/twentyten/images/wechat-attention*.png$image
+
+! 2019/10/7 http://jishukong.com
+||static.wanplus.com/jishukong/img/jishukong_banner_0225.jpg$image
+
+! 2019/10/8 http://lol.qq.com
+lol.qq.com##.head-app-normal
+
+
+! 2019/10/13 http://ddrk.me
+||img.ddrk.me/close-xunlei.jpg$image
+
+! 2019/10/14 https://acgmu.ml
+acgmu.ml##.d-lg-block.d-none.btn.col-lg-9.card
+
+! 2019/10/16 http://360xixi.com
+||360xixi.com/images/rizhuan.gif$image
+
+! 2019/10/16 http://ncurobot.club:8080
+||ncurobot.club:8080/imgs/qrcode2.jpeg$image
+||ncurobot.club:8080/imgs/qrcode*.jp*g$image
+
+! 2019/10/17 https://cnsexy.cc
+cnsexy.cc##.jconfirm-row
+cnsexy.cc##.jconfirm-scrollpane
+cnsexy.cc##.jconfirm-bg
+
+! 2019/10/17 https://www.javhoo.com
+||pics.javhoo.net/pop/pop.jpg$image
+javhoo.com##.pop
+
+! 2019/10/17 https://www.777x.com
+||www.777x.com/static/prime_300x100.gif$image
+
+! 2019/10/17 https://adult.contents.fc2.com
+||static.fc2id.com/contents/images/ZQEJVWJ2Z/c6A/XEsbXgrg.png$image
+
+! 2019/10/18 https://www.mgstage.com
+||static.mgstage.com/mgs/img/pc/superch_detail_banner.jpg$image
+
+! 2019/10/19 https://7mmtv.tv
+||ww7814.win/pic_7mm/20191010193651__117.gif$image
+||file2.7mmtv.tv/91_banner/91_2_2.gif$image
+||file.7mmtv.tv/u_banner/*.gif$image
+
+
+! 2019/10/21 https://www.jav321.com
+jav321.com###video_overlay_sample
+
+! 2019/10/23 https://www.heydouga.com
+||www.heydouga.com/img/sites/heydouga-blackfire/point_back_banner_ppv.jpg$image
+
+! 2019/10/23 https://ura001.dtiblog.com
+||blog.dtiblog.com/images/inactive/inactive-ad-bg.png$image
+ura001.dtiblog.com###meerkat-wrap
+
+! 2019/10/23 http://uramanco.com
+||image.1919gogo.com/bn/img/in3/in3_top.jpg$image
+
+! 2019/10/25 https://sports.qq.com
+sports.qq.com##.ad-newslist-btm
+sports.qq.com##.feedback
