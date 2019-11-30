@@ -3,7 +3,7 @@
 ! Title: adblock_rules by light
 ! Expires: 1 days
 ! Redirect: https://raw.githubusercontent.com/LightAPIs/adblock_rules/master/adblock_rules.txt
-! version: 2019.10.25.0
+! version: 2019.12.1.0
 
 
 ! 通用隐藏 2019.10.2
@@ -17,10 +17,10 @@
 /scrolltop.$badfilter
 
 ! 黑科云 2019.10.2
-heikeyun.net###apkdown
-heikeyun.net###apkad
-heikeyun.net##a.item.with-avatar:has(#lblgg)
-heikeyun.net##a.item.with-avatar:has(div:has-text(充值VIP))
+heikeyun.com###apkdown
+heikeyun.com###apkad
+heikeyun.com##a.item.with-avatar:has(#lblgg)
+heikeyun.com##a.item.with-avatar:has(div:has-text(充值VIP))
 
 ! 2345.com 2019.10.2
 ||2345.com^
@@ -436,6 +436,9 @@ t66y.com###iframe3
 t66y.com###iframe4
 t66y.com###iframe5
 t66y.com##a:has-text(我已了解這是外部網站,并同意加載)
+t66y.com##[href*="bfaxv.xyz"]
+t66y.com##[href*="isdff.com"]
+t66y.com##[href*="jsw.am"]
 t66y.com##[href^="http://goo.gl/eojisp"]
 t66y.com##[href*="http://dsqp.in/"]
 t66y.com##[href*="111pan.com/"]
@@ -630,3 +633,109 @@ ura001.dtiblog.com###meerkat-wrap
 ! 2019/10/25 https://sports.qq.com
 sports.qq.com##.ad-newslist-btm
 sports.qq.com##.feedback
+
+
+! 2019/10/25 https://7mmtv.tv
+7mmtv.tv###menu_show
+7mmtv.tv##.cpm_banner
+||file2.7mmtv.tv/91_banner/91_2_1.gif$image
+
+! 2019/10/25 http://www.xiaobi003.com
+www.xiaobi003.com##.table
+www.xiaobi003.com##.place
+www.xiaobi003.com##.s1
+www.xiaobi003.com###class2
+
+! 2019/10/25 http://xbsb8.club
+||xbsb8.club/static/image/common/portal/banner_index.png$image
+||xbsb8.club/static/image/common/portal/close_index.png$image
+||static.nvshenim.info/static/image//common/head_bg2.jpg$image
+xbsb8.club###lt-ad-box
+
+! 2019/10/27 http://jquery.cuishifeng.cn
+jquery.cuishifeng.cn###aliyun-dig
+
+! 2019/10/27 https://tool.oschina.net
+tool.oschina.net##.bshareDiv
+
+! 2019/10/28 https://www.3dmgame.com
+www.3dmgame.com##.lis4.lis
+
+! 2019/10/28 https://www.141jj.com
+www.141jj.com##[href*="851069.com"]
+www.141jj.com##[href*="s.zhfqfood.com"]
+www.141jj.com##[href*="bdsmtv.co"]
+www.141jj.com##[href*="javdove1.fun"]
+www.141jj.com##[href*="66sex.net"]
+www.141jj.com##[href*="iqq.cloud"]
+
+! 2019/10/28 http://18av.mm-cg.com
+||18av.mm-cg.com/adcg/91porn_*.gif$image
+
+! 2019/10/28 http://av99.us
+av99.us###topguide
+
+! 2019/10/31 https://www.ghpym.com
+||www.ghpym.com/wp-content/uploads/2019/10/pbts.png$image
+www.ghpym.com##[href="https://www.tirr.com.cn"]
+||www.ghpym.com/wp-content/uploads/2019/05/gzwxad.png$image
+www.ghpym.com##[href*="https://item.taobao.com/item.htm"]
+www.ghpym.com##[href="https://partner.lizhi.io/ghpym/cp"]
+
+! 2019/11/7 https://kbs.sports.qq.com
+kbs.sports.qq.com##.watchgame-ad.js-qqlive-after.ad-after
+
+! 2019/11/7 https://www.3dmgame.com
+||www.3dmgame.com/page/images/PC_tg3dm.jpg$image
+
+! 2019/11/9 https://www.baidu.com
+www.baidu.com##[href*="www.hao123.com"]
+
+! 2019/11/10 https://fulibus.net
+fulibus.net##[href="https://www.zhizhizhi.com/"]
+
+! 2019/11/15 https://btos.pw
+||bitport.io/assets/banners/600x100/dark-animated.gif$image
+
+! 2019/11/15 https://pan.baidu.com
+||baidupan.cdn.bcebos.com/baidu.png$image
+
+! 2019/11/19 http://www.baike567.com
+www.baike567.com##.cd
+www.baike567.com###sl99id2eBox
+www.baike567.com##.category
+
+! 2019/11/19 http://www.wuhaozhan.net
+www.wuhaozhan.net##[href="http://www.xsldh.vip"]
+www.wuhaozhan.net##.home-list-1988
+
+! 2019/11/20 https://www.yingyinwu.com
+||s2.ax1x.com/2019/11/14/MNdo24.gif$image
+
+! 2019/11/21 https://www.kkw360.com
+www.kkw360.com###showXFC
+
+! 2019/11/21 http://www.mvcat.com
+www.mvcat.com##.wxfollow
+
+! 2019/11/23 https://v.youku.com
+v.youku.com##.qr-wrap
+
+! 2019/11/24 http://www.playno1.com
+www.playno1.com##[href^="http://www.playno1.com/spider/detector.php"]
+
+! 2019/11/26 http://www.wuhaozhan.net
+||39.100.192.200/zzz0.png$image
+www.wuhaozhan.net##[href*="www.wuhaozhan.net/movie/zfbshf.php"]
+
+! 2019/11/28 https://www.meituri.com
+||ii.hywly.com/css/ylyewm.gif$image
+||ii.hywly.com/ad/tjd.jpg$image
+||ii.hywly.com/ad/yly8.jpg$image
+
+! 2019/11/28 https://nba.hupu.com
+nba.hupu.com##.item-flag.select-item
+
+
+! 2019/12/1 http://www.javlibrary.com
+www.javlibrary.com##.siteAnn1
