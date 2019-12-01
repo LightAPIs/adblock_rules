@@ -3,7 +3,7 @@
 ! Title: adblock_rules by light
 ! Expires: 1 days
 ! Redirect: https://raw.githubusercontent.com/LightAPIs/adblock_rules/master/adblock_rules.txt
-! version: 2019.12.1.0
+! version: 2019.12.1.1
 
 
 ! 通用隐藏 2019.10.2
@@ -59,7 +59,7 @@ hupu.com##[href*="/finance"]
 hupu.com##[href*="/cars"]
 hupu.com##[href*="/4836"]
 hupu.com##[href*="/4845"]
-hupu.com##[href*="/game"]
+hupu.com##[href*="/game/"]
 hupu.com##[href*="/love"]
 hupu.com##[href*="/literature"]
 hupu.com##[href*="/xuefu"]
