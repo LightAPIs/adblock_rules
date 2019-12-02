@@ -3,7 +3,7 @@
 ! Title: adblock_rules by light
 ! Expires: 1 days
 ! Redirect: https://raw.githubusercontent.com/LightAPIs/adblock_rules/master/adblock_rules.txt
-! version: 2019.12.1.1
+! version: 2019.12.3.0
 
 
 ! 通用隐藏 2019.10.2
@@ -415,121 +415,6 @@ ypojie.com##.alignnone
 ypojie.com##.more
 ypojie.com##.excerpt-sticky.excerpt-1.excerpt
 ypojie.com##.excerpt-sticky.excerpt-2.excerpt
-
-! 草榴 2019.10.2
-||www.yuoimg.com/u/20190506/21140324.jpg$image
-||www.yuoimg.com/u/20190503/07165337.gif$image
-||www.skuimg.com/u/20190321/12364092.jpg$image
-||img09.cweb-pix.com/images^$image,domain=t66y.com
-||dioimg.net^$image,domain=t66y.com
-||oi63.tinypic.com^$image,domain=t66y.com
-||oi67.tinypic.com^$image,domain=t66y.com
-||sinaimg.cn^$image,domain=t66y.com
-||img.alicdn.com/imgextra^$image,domain=t66y.com
-||www.touimg.com^$image,domain=t66y.com
-||sc02.alicdn.com^$image,domain=t66y.com
-||sc01.alicdn.com^$image,domain=t66y.com
-||cbu01.alicdn.com^$image,domain=t66y.com
-t66y.com###iframe1
-t66y.com###iframe2
-t66y.com###iframe3
-t66y.com###iframe4
-t66y.com###iframe5
-t66y.com##a:has-text(我已了解這是外部網站,并同意加載)
-t66y.com##[href*="bfaxv.xyz"]
-t66y.com##[href*="isdff.com"]
-t66y.com##[href*="jsw.am"]
-t66y.com##[href^="http://goo.gl/eojisp"]
-t66y.com##[href*="http://dsqp.in/"]
-t66y.com##[href*="111pan.com/"]
-t66y.com##[href*="dh88a.com"]
-t66y.com##[href*="8008586878.com"]
-t66y.com##[href*="suncityad.com"]
-t66y.com##[href*="kxm9999.com"]
-t66y.com##[href*="uu637.com"]
-t66y.com##[href*="xrea.com"]
-t66y.com##[href*="yp29.com"]
-t66y.com##[href*="511yug.com"]
-t66y.com##[href*="e22f.com"]
-t66y.com##[href*="xa789.com"]
-t66y.com##[href*="yunfile.com"]
-t66y.com##[href*="365shares.net"]
-t66y.com##[href*="mo1188.net"]
-t66y.com##[href*="mws3032.tk"]
-t66y.com##[href*="zdpdfb.co"]
-t66y.com##[href*="gueizu.com"]
-t66y.com##[href*="javddmo.net"]
-t66y.com##[href*="91thd.vip"]
-t66y.com##[href*="vip9987.com"]
-t66y.com##[href*="khg56.com"]
-t66y.com##[href*="rrrapk.com"]
-t66y.com##[href*="qqxbt.com"]
-t66y.com##[href*="3502666.com"]
-t66y.com##[href*="dafacai-99x99.com"]
-t66y.com##[href*="958buy.com"]
-t66y.com##[href*="792079207920.com"]
-t66y.com##[href*="jbc568.com"]
-t66y.com##[href*="91imv.com"]
-t66y.com##[href*="wwddxv.comx"]
-t66y.com##[href*="wwdda.com"]
-t66y.com##[href*="UUM29.COM"]
-t66y.com##[href*="78AAY.com"]
-t66y.com##[href*="AAYY3.COM/"]
-t66y.com##[href*="AAYY3.COM"]
-t66y.com##[href*="YP29.COM"]
-t66y.com##[href*="movieppp.com"]
-t66y.com##[href*="rmdown.com"]
-t66y.com##[href*="aae3.com"]
-t66y.com##[href*="yaoshe74.com"]
-t66y.com##[href*="luludown.info"]
-t66y.com##[href*="339900.com"]
-t66y.com##[href*="b23m.com"]
-t66y.com##[href*="88files.net"]
-t66y.com##[href*="hjav.org"]
-t66y.com##[href*="gb.705750.com"]
-t66y.com##[href*="gbqp.705350.com"]
-t66y.com##[href*="UUT79.com"]
-t66y.com##[href*="AAYY3.com"]
-t66y.com##[href*="YP29.com"]
-t66y.com##[href*="kkgg234.com"]
-t66y.com##[href*="fatxv.com"]
-t66y.com##[href*="fatapk.com"]
-t66y.com##[href*="xiaobi001.com"]
-t66y.com##[href*="blgo999.net"]
-t66y.com##[href*="hhy36.com"]
-t66y.com##[href*="77file.com"]
-t66y.com##[href*="finedac.com"]
-t66y.com##[href*="nicedac.com"]
-t66y.com##[href*="91thd.me"]
-t66y.com##[href*="qqupload.com"]
-t66y.com##[href*="dufile.com"]
-t66y.com##[href*="sbkapk.com"]
-t66y.com##[href*="motelppp.com"]
-t66y.com##[href*="bet.3136531365.com"]
-t66y.com##[href*="www.3001666.com"]
-t66y.com##[href*="11-22-33.com"]
-t66y.com##[href*="ch368.com"]
-t66y.com##[href*="3pvip2.com"]
-t66y.com##[href*="www.7yh3.com"]
-t66y.com##[href*="www.40088282.com"]
-t66y.com##[href*="667um.com"]
-t66y.com##[href*="jsc125.com"]
-t66y.com##[href*="h8377.com"]
-t66y.com##[href*="fh222.cc"]
-t66y.com##[href*="pj.772077207720.com"]
-t66y.com##[href*="www.dj134.com"]
-t66y.com##[href*="www.bg8005.com"]
-t66y.com##[href*="a67x.com"]
-t66y.com##[href*="uuk52.com"]
-t66y.com##[href*="uuk36.com"]
-t66y.com##[href*="uuk37.com"]
-t66y.com##[href*="ev997.com"]
-t66y.com##[href*="567qp2222.com"]
-t66y.com##[href*="jsc688.cc"]
-t66y.com##[href*="www.88xy3.com"]
-t66y.com##[href*="uuv86.com"]
-t66y.com##[href*="uuv87.com"]
-
 
 ! tool.lu 2019.10.3
 tool.lu##.js-track
