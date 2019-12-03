@@ -3,7 +3,7 @@
 ! Title: adblock_rules by light
 ! Expires: 1 days
 ! Redirect: https://raw.githubusercontent.com/LightAPIs/adblock_rules/master/adblock_rules.txt
-! version: 2019.12.3.0
+! version: 2019.12.4.0
 
 
 ! 通用隐藏 2019.10.2
@@ -624,3 +624,65 @@ nba.hupu.com##.item-flag.select-item
 
 ! 2019/12/1 http://www.javlibrary.com
 www.javlibrary.com##.siteAnn1
+
+! 2019/12/1 https://www.bilibili.com
+www.bilibili.com###reportFirst2
+www.bilibili.com###reportFirst3
+
+! 2019/12/2 http://jquery.cuishifeng.cn
+jquery.cuishifeng.cn###tencent-dig
+
+! 2019/12/3 https://totalcmd.net
+||totalcmd.net/images/japanese-used-cars-700.jpg$image
+
+! 2019/12/4 https://t66y.com
+||img599.net/images/2019/11/16/*.gif$image
+||dioimg.net/*.gif$image
+||img.alicdn.com/imgextra/*.gif$image
+||wx4.sinaimg.cn/large/*.gif$image
+t66y.com##a:has-text(在线播放)
+t66y.com##a:has-text(投注)
+t66y.com##a:has-text(赚钱)
+t66y.com##a:has-text(导航)
+t66y.com##a:has-text(品牌)
+t66y.com##a:has-text(提款)
+t66y.com##a:has-text(贏錢)
+t66y.com##a:has-text(博彩)
+t66y.com##a:has-text(赌博)
+t66y.com##a:has-text(聊天室)
+t66y.com##a:has-text(娱乐城)
+t66y.com##a:has-text(游戏平台)
+t66y.com##a:has-text(免费裸聊)
+t66y.com##a:has-text(同城)
+t66y.com##a:has-text(网络视频)
+t66y.com##a:has-text(斗地主)
+t66y.com##span:has-text(下載種子)
+t66y.com##a:has-text(下载种子)
+t66y.com##a:has-text(棋牌)
+t66y.com##a:has-text(体彩)
+t66y.com##a:has-text(看片神器)
+t66y.com##a:has-text( 加入会员)
+t66y.com##a:has-text(手机APP)
+t66y.com##a:has-text(蝌蚪窝)
+t66y.com##a:has-text(裸聊直播)
+t66y.com##a:has-text(網絡視頻)
+t66y.com##a:has-text(免费看)
+t66y.com##a:has-text(视频挑选)
+t66y.com##a:has-text(點擊進入)
+t66y.com##a:has-text(發佈站)
+t66y.com##[href*="xrea.com"]
+t66y.com##[href*="365shares.net"]
+t66y.com##[href*="blgo999.net"]
+t66y.com##a:has-text(发布站)
+t66y.com##a:has-text(地址发布)
+t66y.com##a:has-text(點此下載)
+t66y.com##[href*="gueizu.com"]
+t66y.com##a:has-text(點擊這里)
+t66y.com##a:has-text(同意加載)
+t66y.com##iframe
+t66y.com##a:has-text(魔王BLOG)
+t66y.com##[href*="/download.html"]
+t66y.com##[href*="www.hjav.org"]
+t66y.com##a:has-text(點擊进入)
+t66y.com##[href*="/file/"]
+
