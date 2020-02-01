@@ -3,7 +3,7 @@
 ! Title: adblock_rules by light
 ! Expires: 1 days
 ! Redirect: https://raw.githubusercontent.com/LightAPIs/adblock_rules/master/adblock_rules.txt
-! version: 2019.12.4.0
+! version: 2020.2.1.0
 
 
 ! 通用隐藏 2019.10.2
@@ -330,43 +330,6 @@ w3school.com.cn###sp_header
 ! 141JJ 2019.10.2
 ||seal.godaddy.com^$script,image,domain=141jj.com
 ||upload.cc/i1/2019/09/09/OP6atw.gif$image
-141jj.com##[href*="sr5el.com"]
-141jj.com##[href*="69.run"]
-141jj.com##[href*="qzav.app"]
-141jj.com##[href*="mozaotw.com"]
-141jj.com##[href*="lolinya.net"]
-141jj.com##[href*="ty2.life"]
-141jj.com##[href*="kudichi.cn"]
-141jj.com##[href*="9269av.co"]
-141jj.com##[href*="99cl.me"]
-141jj.com##[href*="uus32.com"]
-141jj.com##[href*="qzav1.app"]
-141jj.com##[href*="trwl1.com"]
-141jj.com##[href*="porn5f.co"]
-141jj.com##[href*="ava6677.com"]
-141jj.com##[href*="168168988.com"]
-141jj.com##[href*="520cc.cc"]
-141jj.com##[href*="airav.vip"]
-141jj.com##[href*="javdove2.site"]
-141jj.com##[href*="uus39.com"]
-141jj.com##[href*="bit.ly"]
-141jj.com##[href*="iqq.biz"]
-141jj.com##[href*="lihi.pro"]
-141jj.com##[href*="ty7.life"]
-141jj.com##[href*="5238.me"]
-141jj.com##[href*="pengba11.com"]
-141jj.com##[href*="uus35.com"]
-141jj.com##[href*="uux92.com"]
-141jj.com##[href*="iwant-sex.com"]
-141jj.com##[href*="uuk63.com"]
-141jj.com##[href*="uut37.com"]
-141jj.com##[href*="ffa25.com"]
-141jj.com##[href*="uuk29.com"]
-141jj.com##[href*="uuk65.com/"]
-141jj.com##[href*="bhjdb.com"]
-141jj.com##[href*="ffa28.com"]
-141jj.com##[href*="uux98.com"]
-141jj.com##[href*="sexfunhk.com"]
 
 ! javlibrary 2019.10.2
 javlibrary.com###bottombanner12
@@ -546,14 +509,6 @@ tool.oschina.net##.bshareDiv
 ! 2019/10/28 https://www.3dmgame.com
 www.3dmgame.com##.lis4.lis
 
-! 2019/10/28 https://www.141jj.com
-www.141jj.com##[href*="851069.com"]
-www.141jj.com##[href*="s.zhfqfood.com"]
-www.141jj.com##[href*="bdsmtv.co"]
-www.141jj.com##[href*="javdove1.fun"]
-www.141jj.com##[href*="66sex.net"]
-www.141jj.com##[href*="iqq.cloud"]
-
 ! 2019/10/28 http://18av.mm-cg.com
 ||18av.mm-cg.com/adcg/91porn_*.gif$image
 
@@ -686,3 +641,179 @@ t66y.com##[href*="www.hjav.org"]
 t66y.com##a:has-text(點擊进入)
 t66y.com##[href*="/file/"]
 
+! 2019/12/4 http://jquery.cuishifeng.cn
+jquery.cuishifeng.cn###dig-aliyun
+
+! 2019/12/4 https://nba.hupu.com
+nba.hupu.com##a[href*="xinxinapp.cn"]
+
+! 2019/12/5 https://www.wnflb66.com
+www.wnflb66.com##[href*="niuza.com"]
+
+! 2019/12/11 t66y.com
+@@||s103.cnzz.com/stat.php?id=950900&web_id=950900&online=2&_=1575996625656$script,domain=t66y.com
+
+! 2019/12/12 https://bde4.com
+||wt.0852m.com*.gif$image
+||wt.0852m.com:81/*.$image
+
+! 2019/12/18 https://dl.3dmgame.com
+dl.3dmgame.com##[href="https://www.3dmgame.com/app.html"]
+
+! 2019/12/18 http://v.sosoik.top
+v.sosoik.top##.jconfirm-open.jconfirm-light.jconfirm
+
+! 2019/12/18 https://blog.csdn.net
+blog.csdn.net##.blog-column-pay
+
+! 2019/12/21 https://www.3dmgame.com
+www.3dmgame.com##[href="https://www.3dmgame.com/app.html"]
+
+! 2019/12/21 https://bbs.3dmgame.com
+bbs.3dmgame.com##[href="https://weibo.com/3dmgame"]
+
+! 2019/12/21 http://www.r40z.com
+www.r40z.com##.siteAnn1
+www.r40z.com##.bannerqq
+
+! 2019/12/23 http://erodougazo.com
+erodougazo.com###TopVrList
+erodougazo.com###TopCampaign
+erodougazo.com###ContentsNeck
+erodougazo.com###dmm_pick5
+erodougazo.com###AvJoyuRandam
+erodougazo.com###SubFix
+erodougazo.com###BBB
+erodougazo.com###SameActressProf
+
+! 2019/12/23 http://jquery.cuishifeng.cn
+jquery.cuishifeng.cn###digg-ali
+
+! 2019/12/23 http://erodougazo.com
+erodougazo.com##.HL.HM
+erodougazo.com###ActressPageTweet
+
+! 2019/12/24 https://webcache.googleusercontent.com
+webcache.googleusercontent.com###welcome
+
+||hxctv74.com
+||hxctv75.com
+||hxctv76.com
+
+! 2019/12/27 https://ddrk.me
+ddrk.me##[href^="https://www.5gzm.net/#/download"]
+
+! 2019/12/30 https://www.bilibili.com
+www.bilibili.com##.van-popover__reference.link
+www.bilibili.com##[href*="bilibili.com/v/game/match/"]
+www.bilibili.com##[href*="bilibili.com/platform/"]
+www.bilibili.com##.ran-gif
+www.bilibili.com##.mascot
+www.bilibili.com##.gg.operate-card
+www.bilibili.com##.app-download-link
+www.bilibili.com##.biliapp
+www.bilibili.com##.try-feedback
+
+! 2020/1/1 https://zhidao.baidu.com
+zhidao.baidu.com##.jump-top-box
+zhidao.baidu.com##.task-list-button
+
+! 2020/1/1 http://www.xitongzhijia.net
+www.xitongzhijia.net##.mt30.fix
+www.xitongzhijia.net##.m_swift
+
+! 2020/1/2 http://www.wuhaozhan.net
+www.wuhaozhan.net##.jingdongh2b
+
+! 2020/1/2 https://www.mpyit.com
+www.mpyit.com##[href="https://www.laomo.me/cdn/html/qqqun/"]
+www.mpyit.com##[href="https://www.mpyit.com/wisecare365prosale.html"]
+
+! 2020/1/2 https://t.bilibili.com
+t.bilibili.com##.link
+
+! 2020/1/3 https://www.wanmeikk.me
+www.wanmeikk.me###xianliaome_window
+
+! 2020/1/5 http://jquery.cuishifeng.cn
+jquery.cuishifeng.cn###btm-con1
+
+! 2020/1/5 https://segmentfault.com
+segmentfault.com##[href="/sponsor"]
+segmentfault.com##.float-ads.align-items-center.justify-content-center.d-xl-flex.d-none.overflow-hidden.border-0.card
+
+! 2020/1/10 https://51.ruyo.net
+51.ruyo.net###custom_html-14
+51.ruyo.net###text-16 > .textwidget
+
+! 2020/1/10 https://www.jianguoyun.com
+www.jianguoyun.com##div.bar-item:has-text(应用推荐)
+www.jianguoyun.com##div.bar-item:has-text(下载客户端)
+
+! 2020/1/11 https://fulibus.net
+fulibus.net##[href^="http://www.niuza.com/"]
+fulibus.net##[href="http://www.ruyig.com/"]
+fulibus.net##[href="http://www.5w52.com"]
+fulibus.net##[href="http://kanqiuwu.com/"]
+fulibus.net##[href="https://www.ken74.com/"]
+fulibus.net##[href="http://duobaodou.com/"]
+fulibus.net##.widget_links.widget
+
+! 2020/1/15 http://goodav17.com
+goodav17.com###sticky_ads
+
+! 2020/1/17 https://cn.aq101.cool
+cn.aq101.cool##.video-plan
+cn.aq101.cool##.can-click.btn-green.user-download.user-border
+cn.aq101.cool##.can-click.btn-report.user-border
+cn.aq101.cool###unlock-msg
+
+! 2020/1/20 https://mail.yandex.ru
+mail.yandex.ru##tbody
+
+||sdbeta.com
+
+! 2020/1/21 https://www.wanmeikk.me
+www.wanmeikk.me##.clearfix.stui-pannel-box
+www.wanmeikk.me##.clearfix.stui-extra
+
+! 2020/1/21 https://ddrk.me
+ddrk.me###zmda_200120
+
+! 2020/1/23 http://lx.heikeyun.com
+lx.heikeyun.com##a.with-avatar.item:has-text(新年)
+||lx.heikeyun.com/style/images/happy.gif$image
+
+! 2020/1/23 http://eroerogazo.com
+eroerogazo.com##center
+eroerogazo.com##.post
+
+! 2020/1/24 https://namethatporn.com
+namethatporn.com##.cp.dt.a_br
+
+! 2020/1/25 https://shikoshiko.biz
+shikoshiko.biz##.ml35
+
+! 2020/1/27 https://blog.51cto.com
+blog.51cto.com##a.closeMB
+
+! 2020/1/28 http://www.minnano-av.com
+www.minnano-av.com##[href="http://www.minnano-mj.com"]
+
+! 2020/1/28 https://av-365.com
+av-365.com##.ml50 > [href^="http://www2.jp.jskypro.com/affiliate/click.php"]
+
+! 2020/1/28 http://www.javbaike.com
+www.javbaike.com##.topbanner
+
+! 2020/1/29 https://www.nfmovies.com
+www.nfmovies.com###adleft
+www.nfmovies.com###adright
+
+! 2020/1/30 http://www.kan-tv.com
+www.kan-tv.com##.bd
+www.kan-tv.com##.ADTOPLB_963
+
+! 2020/2/1 https://141jj.com
+141jj.com##ul > div > a
+141jj.com##li:has-text(贊助)
