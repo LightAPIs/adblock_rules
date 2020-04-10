@@ -3,7 +3,7 @@
 ! Title: adblock_rules by light
 ! Expires: 1 days
 ! Redirect: https://raw.githubusercontent.com/LightAPIs/adblock_rules/master/adblock_rules.txt
-! version: 2020.2.1.0
+! version: 2020.4.10.0
 
 
 ! 通用隐藏 2019.10.2
@@ -817,3 +817,178 @@ www.kan-tv.com##.ADTOPLB_963
 ! 2020/2/1 https://141jj.com
 141jj.com##ul > div > a
 141jj.com##li:has-text(贊助)
+
+! 2020/2/4 https://www.423down.com
+www.423down.com##[href="https://www.ntaow.com/shenquan.html"]
+
+! 2020/2/4 http://1090ys.com
+1090ys.com##[src="https://ae01.alicdn.com/kf/Hf39d390cab89484283395b122a18769ab.jpg"]
+
+! 2020/2/4 https://ddrk.me
+||vip1.loli.net/2019/12/30/OdEreLgZKGABChc.jpg$image
+
+! 2020/2/6 http://1090ys1.com
+||ae01.alicdn.com/kf/Hf39d390cab89484283395b122a18769ab.jpg$image
+
+! 去屏蔽 2020.2.6
+www.wanmeikk.me#@#.clearfix.stui-pannel-box
+wuhaozhan.net#@#.pure-u-md-8-24 iframe
+
+! 2020/2/6 http://www.wuhaozhan.net
+www.wuhaozhan.net##[href="http://www.xsldh6.com"]
+
+! 2020/2/6 http://www.baike567.com
+wuhaozhan.net, baike567.com##[href*="www.duoduorebang.com"]
+wuhaozhan.net, baike567.com##[href*="www.djq365.com"]
+wuhaozhan.net, baike567.com##[href*="www.hxtm.vip"]
+
+! 2020/2/6 http://d.pianbar.com
+d.pianbar.com##.clearfix.row
+
+! 2020/2/7 https://www.appinn.com
+www.appinn.com##article.vertical.post-box.latestPost.test:has(span.thecategory > a:has-text(AD))
+
+! 2020/2/7 http://xiazai.zol.com.cn
+xiazai.zol.com.cn##.top-box-xiazai
+xiazai.zol.com.cn##.clearfix.dxlt-down
+
+! 2020/2/8 https://www.50s.wang
+www.50s.wang##[href="http://tao.50s.cc"]
+www.50s.wang##div:has( > a[href*="tao.50s.cc"])
+
+! 2020/2/12 https://shimo.im
+||uploader.shimo.im/f/SlLEatN7zEsc7LFE.gif$image
+shimo.im##strong:has-text(红包)
+
+||sd173.com
+
+! 2020/2/13 https://fulibus.net
+fulibus.net##.excerpt:has(a.cat:has-text(推广))
+
+! 2020/2/13 https://www.ghpym.com
+www.ghpym.com##[href="https://www.lanzous.com/s/guohe"]
+
+||cjwlb.cn
+
+! 2020/2/14 https://www.rjno1.com
+||www.rjno1.com/wp-content/themes/moban/moban-img/index.png$image
+www.rjno1.com###twc2
+www.rjno1.com###twc2bbb
+www.rjno1.com##div:has-text(禁用广告屏蔽)
+
+||flash.cn
+||3h3.com
+||cncrk.com
+||right.com.cn
+||guaguadao.com
+||hxnews.com
+||163italy.com
+||sheyingtg.com
+||365kuaikan.com
+
+! 2020/2/17 https://www.90pan.com
+www.90pan.com###tt_6
+
+! 2020/2/19 http://www.88btbtt.com
+||www.88btbtt.com/view/image/error.gif$image
+www.88btbtt.com##.error
+
+! 2020/2/24 https://t66y.com
+t66y.com##a:has-text(支付宝)
+t66y.com##a:has-text(游戏)
+t66y.com##a:has-text(葡京)
+t66y.com##.quote
+t66y.com##blockquote
+t66y.com##[href*="download.bbcb.tw"]
+t66y.com##a:has-text(永久地址)
+t66y.com##span:has-text(魔王)
+||img599.net/images/*.gif$image
+
+! 2020/2/24 https://nyaa.fun
+||search.pstatic.net/common?src=https://sukebei.nyaa.fun/static/img/a2_cost/h_l_refes.gif$image
+||search.pstatic.net/common?src=https://sukebei.nyaa.fun/static/img/a2_cost/f_l_refes.gif$image
+
+! 2020/2/24 https://magnet2048.com
+||ae01.alicdn.com/kf/*gif$image
+||i.loli.net/*.gif$image
+magnet2048.com##a.hotwords
+magnet2048.com##.center.downbutton
+
+! 2020/2/25 https://ddrk.me
+||ae01.alicdn.com/kf/Hba2d3a9c05334715a2eadddb84dbd5dbt.png$image
+
+! 2020/2/29 https://av.bowan.su
+av.bowan.su##div.ad-box-970-120
+
+! 2020/3/1 http://www.heibaizhibo.com
+||pichb2.ymlykj.com/nuxt/static/banner.png$image
+
+! 2020/3/1 http://www.7xlive.la
+||www.7xtiyu.cc/pic/chsSbnG_760x60.gif$image
+www.7xlive.la##[href^="/bc/xinli.html"]
+
+! 2020/3/2 https://play.google.com
+play.google.com##.XDXaGc
+
+! 2020/3/10 https://www.bilibili.com
+www.bilibili.com##.share
+
+! 2020/3/11 https://fulibus.net
+fulibus.net##[href*="https://www.fanqietuan.com/"]
+
+! 2020/3/15 https://yijiangaitu.com
+||yijiangaitu.com/image/ban1.jpg$image
+
+
+! 福利吧论坛头像及图片
+! ||www.wnflb66.com/uc_server/data/avatar/*.jpg?random=*$document,image,domain=www.wnflb66.com
+! ||www.wnflb66.com/static/image/*$image,domain=www.wnflb66.com
+
+! 2020/3/21 http://1090ys.com
+1090ys.com##[href*="/app/home/"]
+
+! 2020/3/22 https://www.jianguoyun.com
+www.jianguoyun.com##.teaser-container
+
+! 2020/3/22 https://www.ghpym.com
+www.ghpym.com##.widget_html_ad.widget
+
+! 2020/3/23 https://www.cnblogs.com
+||files.cnblogs.com/files/starof/starof_wx.bmp$image
+
+! 2020/3/27 http://www.ypojie.com
+||www.ypojie.com/wp-content/uploads/2020/03/pinduoduochaye.jpg$image
+www.ypojie.com##.widget_media_image.widget
+
+! 2020/3/28 https://www.w3cplus.com
+www.w3cplus.com##.block-block.block
+www.w3cplus.com###totop
+
+! 2020/3/30 https://www.runoob.com
+www.runoob.com##footer
+
+! 2020/4/2 https://www.98tang.com
+www.98tang.com##.show-text2
+www.98tang.com##div.cl.show-text
+
+! 2020/4/4 https://www.w3cschool.cn
+www.w3cschool.cn##[href^="https://www.w3cschool.cn/download"]
+www.w3cschool.cn##.header-menu-vip
+www.w3cschool.cn##.mobile.fl
+www.w3cschool.cn###toolbar
+www.w3cschool.cn##.try-abox
+
+! 2020/4/8 https://www.mydrivers.com
+www.mydrivers.com##.top_2_right2
+
+! 2020/4/10 https://t66y.com
+||www.touimg.com/*.gif$image
+||www.sxeimg.com/*.gif$image
+t66y.com##a:has-text(赌场)
+
+! 2020/4/10 http://img599.net
+||www.x6img.com/*.gif$image
+
+! 2020/4/10 https://t66y.com
+||kccdk.com/files/*/*/*/dc*.jpeg$image
+t66y.com##a:has-text(每日更新)
