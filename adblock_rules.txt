@@ -3,7 +3,7 @@
 ! Title: adblock_rules by light
 ! Expires: 1 days
 ! Redirect: https://raw.githubusercontent.com/LightAPIs/adblock_rules/master/adblock_rules.txt
-! version: 2020.4.10.0
+! version: 2020.4.27.0
 
 
 ! 通用隐藏 2019.10.2
@@ -590,56 +590,7 @@ jquery.cuishifeng.cn###tencent-dig
 ! 2019/12/3 https://totalcmd.net
 ||totalcmd.net/images/japanese-used-cars-700.jpg$image
 
-! 2019/12/4 https://t66y.com
-||img599.net/images/2019/11/16/*.gif$image
-||dioimg.net/*.gif$image
-||img.alicdn.com/imgextra/*.gif$image
-||wx4.sinaimg.cn/large/*.gif$image
-t66y.com##a:has-text(在线播放)
-t66y.com##a:has-text(投注)
-t66y.com##a:has-text(赚钱)
-t66y.com##a:has-text(导航)
-t66y.com##a:has-text(品牌)
-t66y.com##a:has-text(提款)
-t66y.com##a:has-text(贏錢)
-t66y.com##a:has-text(博彩)
-t66y.com##a:has-text(赌博)
-t66y.com##a:has-text(聊天室)
-t66y.com##a:has-text(娱乐城)
-t66y.com##a:has-text(游戏平台)
-t66y.com##a:has-text(免费裸聊)
-t66y.com##a:has-text(同城)
-t66y.com##a:has-text(网络视频)
-t66y.com##a:has-text(斗地主)
-t66y.com##span:has-text(下載種子)
-t66y.com##a:has-text(下载种子)
-t66y.com##a:has-text(棋牌)
-t66y.com##a:has-text(体彩)
-t66y.com##a:has-text(看片神器)
-t66y.com##a:has-text( 加入会员)
-t66y.com##a:has-text(手机APP)
-t66y.com##a:has-text(蝌蚪窝)
-t66y.com##a:has-text(裸聊直播)
-t66y.com##a:has-text(網絡視頻)
-t66y.com##a:has-text(免费看)
-t66y.com##a:has-text(视频挑选)
-t66y.com##a:has-text(點擊進入)
-t66y.com##a:has-text(發佈站)
-t66y.com##[href*="xrea.com"]
-t66y.com##[href*="365shares.net"]
-t66y.com##[href*="blgo999.net"]
-t66y.com##a:has-text(发布站)
-t66y.com##a:has-text(地址发布)
-t66y.com##a:has-text(點此下載)
-t66y.com##[href*="gueizu.com"]
-t66y.com##a:has-text(點擊這里)
-t66y.com##a:has-text(同意加載)
-t66y.com##iframe
-t66y.com##a:has-text(魔王BLOG)
-t66y.com##[href*="/download.html"]
-t66y.com##[href*="www.hjav.org"]
-t66y.com##a:has-text(點擊进入)
-t66y.com##[href*="/file/"]
+
 
 ! 2019/12/4 http://jquery.cuishifeng.cn
 jquery.cuishifeng.cn###dig-aliyun
@@ -649,9 +600,6 @@ nba.hupu.com##a[href*="xinxinapp.cn"]
 
 ! 2019/12/5 https://www.wnflb66.com
 www.wnflb66.com##[href*="niuza.com"]
-
-! 2019/12/11 t66y.com
-@@||s103.cnzz.com/stat.php?id=950900&web_id=950900&online=2&_=1575996625656$script,domain=t66y.com
 
 ! 2019/12/12 https://bde4.com
 ||wt.0852m.com*.gif$image
@@ -893,17 +841,6 @@ www.90pan.com###tt_6
 ||www.88btbtt.com/view/image/error.gif$image
 www.88btbtt.com##.error
 
-! 2020/2/24 https://t66y.com
-t66y.com##a:has-text(支付宝)
-t66y.com##a:has-text(游戏)
-t66y.com##a:has-text(葡京)
-t66y.com##.quote
-t66y.com##blockquote
-t66y.com##[href*="download.bbcb.tw"]
-t66y.com##a:has-text(永久地址)
-t66y.com##span:has-text(魔王)
-||img599.net/images/*.gif$image
-
 ! 2020/2/24 https://nyaa.fun
 ||search.pstatic.net/common?src=https://sukebei.nyaa.fun/static/img/a2_cost/h_l_refes.gif$image
 ||search.pstatic.net/common?src=https://sukebei.nyaa.fun/static/img/a2_cost/f_l_refes.gif$image
@@ -981,14 +918,32 @@ www.w3cschool.cn##.try-abox
 ! 2020/4/8 https://www.mydrivers.com
 www.mydrivers.com##.top_2_right2
 
-! 2020/4/10 https://t66y.com
-||www.touimg.com/*.gif$image
-||www.sxeimg.com/*.gif$image
-t66y.com##a:has-text(赌场)
-
 ! 2020/4/10 http://img599.net
 ||www.x6img.com/*.gif$image
 
-! 2020/4/10 https://t66y.com
-||kccdk.com/files/*/*/*/dc*.jpeg$image
-t66y.com##a:has-text(每日更新)
+! 2020/4/10 https://javdb4.com
+javdb4.com##.moj-header
+javdb4.com##.moj-content
+
+! 2020/4/13 https://u0c0.com
+||u0c0.com/nnn/1.gif$image
+
+||baijiahao.baidu.com
+
+! 2020/4/17 https://turbobit.net
+turbobit.net##.simpleToast
+
+! 2020/4/20 https://www.nicemov.com
+www.nicemov.com##[href="https://www.purecc.vip"]
+
+! 2020/4/21 https://dvdhd.me
+dvdhd.me##div.tbad_1200_100
+
+! 2020/4/23 http://sou.pptv.com
+sou.pptv.com##.band-rec-box
+
+! 2020/4/25 https://www.zhujiceping.com
+www.zhujiceping.com###hmtb-footer-bar
+
+! 2020/4/27 https://cloud.tencent.com
+cloud.tencent.com##.essays.com-activity-popup
