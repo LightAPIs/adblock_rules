@@ -3,7 +3,7 @@
 ! Title: adblock_rules by light
 ! Expires: 1 days
 ! Redirect: https://raw.githubusercontent.com/LightAPIs/adblock_rules/master/adblock_rules.txt
-! version: 2020.4.27.0
+! version: 2020.5.17.0
 
 
 ! 通用隐藏 2019.10.2
@@ -947,3 +947,54 @@ www.zhujiceping.com###hmtb-footer-bar
 
 ! 2020/4/27 https://cloud.tencent.com
 cloud.tencent.com##.essays.com-activity-popup
+
+! 2020/4/28 https://www.cnblogs.com
+www.cnblogs.com###big_banner
+
+! 2020/4/28 https://www.cilixiong.com
+||www.qingniao.me/banner.jpg$image
+
+! 2020/4/28 http://www.imooc.com
+www.imooc.com##.js-ad-click
+
+||www.savmm.com
+
+! 2020/5/3 https://bbs.hupu.com
+bbs.hupu.com##.download-app
+
+! 2020/5/5 https://mengmiandaxia.com
+mengmiandaxia.com##.app-download
+
+! 2020/5/6 https://www.portablesoft.org
+||cdn.portablesoft.org/images/portablesoft-weixin.png$image
+
+! 2020/5/6 http://www.edddh.com
+www.edddh.com##.screen
+
+! 2020/5/9 https://v.qq.com
+v.qq.com##div.promotion_banner_special.promotion_banner
+v.qq.com##.mod_pay
+
+||jinsqq.com
+
+! 2020/5/12 https://www.mpyit.com
+www.mpyit.com###playBax
+www.mpyit.com##[href^="https://www.juhuitv.com/"]
+
+! 2020/5/12 http://www.nkdyw.com
+www.nkdyw.com##div:has(> .text-muted.margin-0)
+
+! 2020/5/15 http://www.nkdyw.com
+www.nkdyw.com##.clearfix.fadeInDown.bottom.dropdown-box
+www.nkdyw.com##.visible-lg.pull-right.dropdown-hover.btn-default.btn
+
+! 2020/5/15 https://bbs.hupu.com
+bbs.hupu.com##.todo-list.post-operate-comp-main-share
+bbs.hupu.com##[href^="https://www.xinxinapp.cn/"]
+
+! 2020/5/15 https://www.vpskp.com
+||www.vpskp.com/pic/banwagong1.gif$image
+||www.vpskp.com/pic/*.gif$image
+
+! 2020/5/16 http://www.nkdyw.com
+www.nkdyw.com##.btn-info.btn
