@@ -3,7 +3,7 @@
 ! Title: adblock_rules by light
 ! Expires: 1 days
 ! Redirect: https://raw.githubusercontent.com/LightAPIs/adblock_rules/master/adblock_rules.txt
-! version: 2020.5.17.0
+! version: 2020.6.6.0
 
 
 ! 通用隐藏 2019.10.2
@@ -383,9 +383,6 @@ ypojie.com##.excerpt-sticky.excerpt-2.excerpt
 tool.lu##.js-track
 tool.lu##.js-share-bar
 tool.lu###t_fixed
-
-! 坚果云 2019.10.3
-jianguoyun.com##.active.bar-item
 
 ! 卡饭 2019.10.3
 kafan.cn##[href="https://bbs.kafan.cn/"]
