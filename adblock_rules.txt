@@ -3,7 +3,7 @@
 ! Title: adblock_rules by light
 ! Expires: 1 days
 ! Redirect: https://raw.githubusercontent.com/LightAPIs/adblock_rules/master/adblock_rules.txt
-! version: 2020.6.6.0
+! version: 2020.6.6.1
 
 
 ! 通用隐藏 2019.10.2
@@ -995,3 +995,57 @@ bbs.hupu.com##[href^="https://www.xinxinapp.cn/"]
 
 ! 2020/5/16 http://www.nkdyw.com
 www.nkdyw.com##.btn-info.btn
+
+! 2020/5/19 https://mengmiandaxia.com
+mengmiandaxia.com###qrcode2
+mengmiandaxia.com##.text-center.col-pd
+
+! 2020/5/22 https://mengmiandaxia.com
+mengmiandaxia.com##[href="https://mengmiandaxia.com/app"]
+mengmiandaxia.com##.icon-qrcode.iconfont.icon
+mengmiandaxia.com##.clearfix.stui-extra
+
+! 2020/5/22 http://www.zhuixinfan.com
+www.zhuixinfan.com##.l-2
+
+! 2020/5/26 http://www.javlibrary.com
+www.javlibrary.com##[href^="redirect.php"]
+
+! 2020/5/26 https://jquery.cuishifeng.cn
+jquery.cuishifeng.cn###dig-wxmp
+
+! 2020/5/27 https://aa1802.com
+aa1802.com###friendLink
+
+! 2020/5/29 https://www.xstui.com
+||www.xstui.com/img/250x250.png$image
+||www.xstui.com/img/jd1.gif$image
+www.xstui.com##.panel-title > [href="/supportme"]
+
+! 2020/5/29 https://www.bilibili.com
+www.bilibili.com##.draft-holder-block
+
+! 2020/5/30 https://javdb.com
+javdb.com##a.is-small.is-outlined.is-danger.button
+
+! 2020/5/30 https://www.douyu.com
+www.douyu.com##.css-widgetWrapper-EdVVC
+
+! 2020/6/1 https://product.pconline.com.cn
+product.pconline.com.cn##.blank
+
+! 2020/6/1 https://www.xstui.com
+www.xstui.com###gg
+
+! 2020/6/1 https://www.bilibili.com
+www.bilibili.com##.b-wrap.first-screen
+www.bilibili.com##.home-slide.special-recommend
+www.bilibili.com##.contact-help
+www.bilibili.com##li > a[href*="show.bilibili.com"]
+www.bilibili.com##li > a[href*="manga.bilibili.com"]
+www.bilibili.com##li > a[href*="live.bilibili.com"]
+www.bilibili.com###bili_report_spe_rec
+www.bilibili.com###bili_manga
+
+! 2020/6/4 https://www.3dmgame.com
+www.3dmgame.com##.on.countdowntime
