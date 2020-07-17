@@ -3,7 +3,7 @@
 ! Title: adblock_rules by light
 ! Expires: 1 days
 ! Redirect: https://raw.githubusercontent.com/LightAPIs/adblock_rules/master/adblock_rules.txt
-! version: 2020.6.6.1
+! version: 2020.7.18.0
 
 
 ! 通用隐藏 2019.10.2
@@ -88,15 +88,15 @@ hupu.com##.dimCode
 ##[href="http://www.5w52.com"]
 ##[href="http://www.heimaoshe.com/"]
 ##[href="http://www.ruyig.com/"]
-##[href="http://quan.fulibus.net"]
-##[href="http://shop.fulibus.net"]
-##[href="https://fulibus.net/bitqiu.html"]
+##[href="http://quan.fuliba2020.net"]
+##[href="http://shop.fuliba2020.net"]
+##[href="https://fuliba2020.net/bitqiu.html"]
 ##[href="http://pay.lao4g.com/"]
-fulibus.net###focusslide
-fulibus.net##[href*="?userCode="]
-fulibus.net##.asb-post-03.asb-post.asb
-fulibus.net##li:has(> [href*="/115.html"])
-fulibus.net##li:has(> [href*="/bitqiu.html"])
+fuliba2020.net###focusslide
+fuliba2020.net##[href*="?userCode="]
+fuliba2020.net##.asb-post-03.asb-post.asb
+fuliba2020.net##li:has(> [href*="/115.html"])
+fuliba2020.net##li:has(> [href*="/bitqiu.html"])
 
 
 
@@ -528,8 +528,8 @@ kbs.sports.qq.com##.watchgame-ad.js-qqlive-after.ad-after
 ! 2019/11/9 https://www.baidu.com
 www.baidu.com##[href*="www.hao123.com"]
 
-! 2019/11/10 https://fulibus.net
-fulibus.net##[href="https://www.zhizhizhi.com/"]
+! 2019/11/10 https://fuliba2020.net
+fuliba2020.net##[href="https://www.zhizhizhi.com/"]
 
 ! 2019/11/15 https://btos.pw
 ||bitport.io/assets/banners/600x100/dark-animated.gif$image
@@ -695,14 +695,14 @@ segmentfault.com##.float-ads.align-items-center.justify-content-center.d-xl-flex
 www.jianguoyun.com##div.bar-item:has-text(应用推荐)
 www.jianguoyun.com##div.bar-item:has-text(下载客户端)
 
-! 2020/1/11 https://fulibus.net
-fulibus.net##[href^="http://www.niuza.com/"]
-fulibus.net##[href="http://www.ruyig.com/"]
-fulibus.net##[href="http://www.5w52.com"]
-fulibus.net##[href="http://kanqiuwu.com/"]
-fulibus.net##[href="https://www.ken74.com/"]
-fulibus.net##[href="http://duobaodou.com/"]
-fulibus.net##.widget_links.widget
+! 2020/1/11 https://fuliba2020.net
+fuliba2020.net##[href^="http://www.niuza.com/"]
+fuliba2020.net##[href="http://www.ruyig.com/"]
+fuliba2020.net##[href="http://www.5w52.com"]
+fuliba2020.net##[href="http://kanqiuwu.com/"]
+fuliba2020.net##[href="https://www.ken74.com/"]
+fuliba2020.net##[href="http://duobaodou.com/"]
+fuliba2020.net##.widget_links.widget
 
 ! 2020/1/15 http://goodav17.com
 goodav17.com###sticky_ads
@@ -807,8 +807,8 @@ shimo.im##strong:has-text(红包)
 
 ||sd173.com
 
-! 2020/2/13 https://fulibus.net
-fulibus.net##.excerpt:has(a.cat:has-text(推广))
+! 2020/2/13 https://fuliba2020.net
+fuliba2020.net##.excerpt:has(a.cat:has-text(推广))
 
 ! 2020/2/13 https://www.ghpym.com
 www.ghpym.com##[href="https://www.lanzous.com/s/guohe"]
@@ -867,8 +867,8 @@ play.google.com##.XDXaGc
 ! 2020/3/10 https://www.bilibili.com
 www.bilibili.com##.share
 
-! 2020/3/11 https://fulibus.net
-fulibus.net##[href*="https://www.fanqietuan.com/"]
+! 2020/3/11 https://fuliba2020.net
+fuliba2020.net##[href*="https://www.fanqietuan.com/"]
 
 ! 2020/3/15 https://yijiangaitu.com
 ||yijiangaitu.com/image/ban1.jpg$image
@@ -1049,3 +1049,74 @@ www.bilibili.com###bili_manga
 
 ! 2020/6/4 https://www.3dmgame.com
 www.3dmgame.com##.on.countdowntime
+
+! 2020/6/7 http://18av.mm-cg.com
+18av.mm-cg.com##.ut_ad_box
+
+! 2020/6/7 https://south-plus.org
+||south-plus.org//attachment/Mon_2006/11_168153_0838a5a027bbaf9.png$image
+
+! 2020/6/11 https://www.ourocg.cn
+www.ourocg.cn##[src="//static.ourocg.cn/images/WeChat.jpg"]
+
+! 2020/6/12 https://www.ourocg.cn
+||static.ourocg.cn/images/WeChat.jpg$image
+
+! 2020/6/13 https://www.mgtv.com
+www.mgtv.com##.m-agreement-mask
+
+! 2020/6/19 https://juejin.im
+juejin.im##.recommend-box
+
+! 2020/6/20 https://www.zxzj.me
+||api.qrserver.com/v1/create-qr-code/$image
+www.zxzj.me##.stui-content__side
+
+! 2020/6/22 https://pan.baidu.com
+pan.baidu.com##.activity.phone-banner
+
+! 2020/6/22 https://www.iplaysoft.com
+www.iplaysoft.com##[href="//www.iplaysoft.com/go/618post"]
+||img.iplaysoft.com/assets/wechat_qr.png!0x0.webp$image
+www.iplaysoft.com##.post_wechat_qr
+www.iplaysoft.com##.donate
+||cdn.iplaysoft.com/ips/theme/images/webp/body.webp$image
+www.iplaysoft.com##.entry-recommend-posts
+www.iplaysoft.com##p.aligncenter
+www.iplaysoft.com##[href="https://www.iplaysoft.com/p/qcloud-sale"]
+www.iplaysoft.com##[href="https://www.iplaysoft.com/p/vultr-promotion"]
+
+! 2020/6/23 https://www.iplaysoft.com
+www.iplaysoft.com##.side_links_title
+www.iplaysoft.com##.side_links
+
+! 2020/7/3 https://www.iqiyi.com
+||www.iqiyipic.com/common/fix/site-v4/hongbao-img@2x.png$image
+www.iqiyi.com##.qy-anchor-hongbao-box
+
+! 2020/7/4 https://www.jb51.cc
+||www.jb51.cc/images/kkb.png$image
+||www.jb51.cc/qrcode.jpg$image
+
+! 2020/7/5 https://www.reneelab.com.cn
+www.reneelab.com.cn##.blue.colorbg.download-ads-box.show-download-box
+www.reneelab.com.cn##[href="/video-editor-pro"]
+
+! 2020/7/6 http://www.xiaobi098.com
+www.xiaobi098.com##.right-vip
+
+! 2020/7/6 https://www.423down.com
+www.423down.com##[href^="https://jq.qq.com/"]
+
+! 2020/7/6 http://www.xiaobi098.com
+www.xiaobi098.com###class2
+www.xiaobi098.com##.place
+
+! 2020/7/10 https://www.jav777.xyz
+||www.jav777.xyz/close.gif$image
+
+! 2020/7/16 https://bbs.hupu.com
+bbs.hupu.com###game-center-entrance-container
+
+! 2020/7/16 https://www.xstui.com
+||www.xstui.com/qrcodeimage/*.png$image
