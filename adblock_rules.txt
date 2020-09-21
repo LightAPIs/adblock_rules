@@ -3,7 +3,7 @@
 ! Title: adblock_rules by light
 ! Expires: 1 days
 ! Redirect: https://raw.githubusercontent.com/LightAPIs/adblock_rules/master/adblock_rules.txt
-! version: 2020.7.18.0
+! version: 2020.09.21.0
 
 
 ! 通用隐藏 2019.10.2
@@ -1120,3 +1120,162 @@ bbs.hupu.com###game-center-entrance-container
 
 ! 2020/7/16 https://www.xstui.com
 ||www.xstui.com/qrcodeimage/*.png$image
+
+! 2020/7/18 https://fuliba2020.net
+fuliba2020.net##.affix-top.widget_custom_html.widget.widget_text
+
+! 2020/7/21 http://www.jav321.com
+www.jav321.com###popup
+
+! 2020/7/22 https://www.jav777.xyz
+www.jav777.xyz##[href^="https://clappf.me"]
+
+! 2020/7/23 https://nba.hupu.com
+nba.hupu.com##.game-center
+
+! 2020/7/23 https://cn.pornhub.com
+cn.pornhub.com##.abAlertShown
+cn.pornhub.com##.sectionWrapper > .sectionWrapper
+
+! 2020/7/23 https://www.netflav.com
+www.netflav.com##.ads_head_banner_header
+
+! 2020/7/23 https://jable.tv
+jable.tv##.mb-e-30.text-center
+jable.tv##div.col-lg-12.col-sm-4.col-6:nth-of-type(1)
+jable.tv##[href="http://uus52.com/"]
+jable.tv##.uu-ads
+jable.tv##[href="https://uuw73.com"]
+
+! 2020/7/23 javlibrary.com
+||javxvideos.org/wp-content/uploads/head1.jpg$image,domain=javlibrary.com,important
+
+! 2020/7/24 javlibrary.com
+||getinfos.net^$image,domain=javlibrary.com,important
+
+! 2020/7/24 https://javxxx.online
+javxxx.online##.jXyUWGShZFqi-bg
+javxxx.online###sDmOAEbMiUbu
+
+! 2020/7/24 https://av6k.com
+av6k.com##.dago3
+av6k.com##.dagoad
+
+! 2020/7/24 https://javtube.cc
+javtube.cc##.layui-layer-border.layui-layer-iframe.layui-layer
+javtube.cc##div.modown-ad
+javtube.cc##[href="https://github.com/javtubesp"]
+
+||extremedirectness.com
+
+! 2020/7/25 https://www.bilibili.com
+www.bilibili.com###bili_cheese
+
+! 2020/7/27 http://www.xxgame.net
+||www.xxgame.net/Content/img/aliyun/1920-120.jpg$image
+||www.xxgame.net/Content/img/aliyun/*0.jpg$image
+
+! 2020/7/27 https://www.zxzj.me
+www.zxzj.me##.fixed_f
+
+! 2020/7/29 https://www.520cc.cc
+||www.520cc.cc/source/plugin/drk_ledadv/image/drk_led.png$image
+www.520cc.cc###drk_ledtd
+www.520cc.cc###back-to-top
+
+! 2020/7/31 https://www.520cc.cc
+www.520cc.cc##u
+
+! 2020/8/1 https://www.3dmgame.com
+www.3dmgame.com##.push_browser
+
+! 2020/8/2 https://avgle.com
+avgle.com##.col-sm-5.col-md-4
+
+! 2020/8/7 https://bbs.hupu.com
+bbs.hupu.com##.post-operate-bar-share
+
+! 2020/8/8 https://www.geek-share.com
+www.geek-share.com##.ThinkBox-default.ThinkBox-wrapper
+www.geek-share.com##.ThinkBox-modal-blackout-default.ThinkBox-modal-blackout
+
+! 2020/8/10 https://segmentfault.com
+segmentfault.com###sfModal
+segmentfault.com##.show.fade.modal-backdrop
+
+! 2020/8/11 http://treehousesub.com
+treehousesub.com##.login_alert_box
+
+! 2020/8/13 https://nba.hupu.com
+nba.hupu.com##.top-topic-container
+
+! 2020/8/19 https://bbs.hupu.com
+bbs.hupu.com##[href^="https://fairy.mobileapi.hupu.com/gamecentre"]
+
+! 2020-08-20 https://www.paofans.net
+www.paofans.net##.mb10.col-pd
+
+! 2020-08-21 https://cn.duboku.tv
+||cn.duboku.tv/static/images/yabo.gif$image
+
+! 2020-08-21 https://www.veryins.com
+||www.veryins.com/s/images/g2.jpg$image
+
+! 2020-08-21 http://24mail.chacuo.net
+24mail.chacuo.net##.navbar-right.navbar-nav.nav
+
+! 2020-08-22 https://inswanghong.xyz
+inswanghong.xyz##.wrap
+
+! 2020-08-22 https://www.poco.cn
+www.poco.cn##.contact-us
+
+! 2020-08-22 https://www.wnflb2020.com
+www.wnflb2020.com##.GzList
+
+! 2020-08-22 https://www.lyrics.com
+www.lyrics.com##.n4w4rnt6a9gq
+www.lyrics.com##div[style*="bottom: 0px;"]
+
+! 2020-08-25 http://www.kuwo.cn
+www.kuwo.cn###xiuchang-ad
+
+! 2020-08-27 https://www.duboku.co
+www.duboku.co##.btn-info.btn
+
+! 2020-08-28 https://bbs.csdn.net
+bbs.csdn.net###passportbox
+bbs.csdn.net##.login-mark
+
+! 2020-08-31 https://bbs.hupu.com
+bbs.hupu.com##.hp-pc-menu-game-center
+
+! 2020-08-31 https://giftujie666.com
+||ww1.sinaimg.cn/large/006F5YOCly1fdouwu89epj30go0rsq7q$image
+
+! 2020-09-05 http://www.yy8844.cn
+www.yy8844.cn###ad_piao
+
+! 2020-09-09 https://bbs.hupu.com
+bbs.hupu.com##.game-center-sidebar
+
+! 2020-09-12 https://www.ins89.com
+www.ins89.com##.fixed-md-right.d-md-block.d-none
+
+! 2020-09-14 http://caiziav.xyz
+caiziav.xyz##fieldset
+
+! 2020-09-14 https://bbs.hupu.com
+bbs.hupu.com##.game-center-entrance-container-title
+bbs.hupu.com##.right-post-title
+
+! 2020-09-14 https://jable.tv
+||assets.jable.tv/assets/images/*.gif$image
+jable.tv##[href^="https://r.trwl1.com/"]
+jable.tv##.sub-title:has-text(限時優惠)
+
+! 2020-09-15 https://myavfun.com
+||myavfun.com/static/player/dplayer.html$subdocument
+
+! 2020-09-17 https://pan.baidu.com
+pan.baidu.com##.phone-banner
