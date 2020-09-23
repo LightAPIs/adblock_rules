@@ -3,7 +3,7 @@
 ! Title: adblock_rules by light
 ! Expires: 1 days
 ! Redirect: https://raw.githubusercontent.com/LightAPIs/adblock_rules/master/adblock_rules.txt
-! version: 2020.09.21.0
+! version: 2020.09.23.0
 
 
 ! 通用隐藏 2019.10.2
@@ -844,7 +844,7 @@ www.88btbtt.com##.error
 
 ! 2020/2/24 https://magnet2048.com
 ||ae01.alicdn.com/kf/*gif$image
-||i.loli.net/*.gif$image
+||i.loli.net/*.gif$image,domain=magnet2048.com
 magnet2048.com##a.hotwords
 magnet2048.com##.center.downbutton
 
@@ -1279,3 +1279,24 @@ jable.tv##.sub-title:has-text(限時優惠)
 
 ! 2020-09-17 https://pan.baidu.com
 pan.baidu.com##.phone-banner
+
+! 2020-09-22 https://baike.baidu.com
+baike.baidu.com##.before-content
+baike.baidu.com##.declare-wrap
+baike.baidu.com##.appdownload
+
+! 2020-09-22 https://nba.hupu.com
+nba.hupu.com##div.street-item:has-text(晒晒照片)
+
+! 2020-09-22 https://baike.baidu.com
+baike.baidu.com##.secondsknow-large-container
+baike.baidu.com##.flower-sender
+baike.baidu.com##.tashuo-right
+
+! 2020-09-22 https://www.423down.com
+www.423down.com##.excerpt > li:has-text(向日葵)
+www.423down.com##.excerpt > li:has-text(蒲公英)
+www.423down.com##[href="https://www.423down.com/vip"]
+
+! 2020-09-22 https://www.mpyit.com
+www.mpyit.com###sidebar
