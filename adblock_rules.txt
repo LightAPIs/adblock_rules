@@ -3,7 +3,7 @@
 ! Title: adblock_rules by light
 ! Expires: 1 days
 ! Redirect: https://raw.githubusercontent.com/LightAPIs/adblock_rules/master/adblock_rules.txt
-! version: 2020.09.23.0
+! version: 2020.10.29.0
 
 
 ! 通用隐藏 2019.10.2
@@ -1300,3 +1300,135 @@ www.423down.com##[href="https://www.423down.com/vip"]
 
 ! 2020-09-22 https://www.mpyit.com
 www.mpyit.com###sidebar
+
+! 2020-09-22 https://mov18plus.com
+mov18plus.com##.jconfirm-dhantiadblocker
+
+! 2020-09-22 http://twdvd.com
+twdvd.com##[href^="http://link.twrank.com/allsite.php"]
+twdvd.com##[href^="http://41796.live173.com/"]
+
+! 2020-09-22 http://goodav17.com
+goodav17.com###sticky_ads
+goodav17.com##div.ads_pc
+goodav17.com##div.ads_all
+
+! 2020-09-23 https://javdb.com
+javdb.com##.moj-content
+
+! 2020-09-23 https://pc.0ady.me
+||pc.0ady.me/pic/ady.png$image
+
+! 2020-09-24 https://cuiqingcai.com
+cuiqingcai.com##.banner
+cuiqingcai.com##div.widget_text
+
+! 2020-09-24 http://www.jsphp.net
+www.jsphp.net##.adleft-wrap
+www.jsphp.net##.rightBtm-ad-link
+www.jsphp.net##.rightBtm-ad
+www.jsphp.net###rightBtmAdClose
+www.jsphp.net##.widget_tuijian
+
+! 2020-09-24 https://cuiqingcai.com
+||qiniu.cuiqingcai.com/wp-content/uploads/2017/05/qrcode_for_gh_5b0546ddd2d0_430.jpg$image
+cuiqingcai.com###qrcodes
+
+! 2020-09-25 https://pc.0ady.me
+pc.0ady.me##[href="/js/请收藏Ady网址发布器.rar"]
+pc.0ady.me##[href="http://down.xfplay.com/xfplay.apk"]
+pc.0ady.me##[href="/js/xfplayer.rar"]
+
+||wsh178.com
+
+! 2020-09-25 https://matters.news
+matters.news##.splash-screen
+
+! 2020-09-25 https://www.javdatabase.com
+||www.javdatabase.com/player.gif$image
+
+! 2020-09-25 https://www.v2rayssr.com
+www.v2rayssr.com##.mask
+www.v2rayssr.com###gg-box
+
+! 2020-09-25 https://www.cilipa.com
+www.cilipa.com##[href="/url.html"]
+
+! 2020-09-26 https://cn.torrentkitty.app
+cn.torrentkitty.app###vpnModal
+cn.torrentkitty.app##.sidebar-vpn
+
+! 2020-09-27 https://avwikich.com
+avwikich.com##.textwidget
+
+! 2020-09-29 https://news.tokimeki-s.com
+||tokimeki-s.com/top1.html$subdocument
+||tokimeki-s.com/top*.html$subdocument
+news.tokimeki-s.com###rss
+||tokimeki-s.com/kobetu1.html$subdocument
+
+! 2020-09-29 http://www.erogazo-jp.net
+www.erogazo-jp.net##div.widget
+
+! 2020-09-29 https://erogazou-pinkline.com
+erogazou-pinkline.com##.text-appc
+
+! 2020-10-01 https://www.clp55.xyz
+www.clp55.xyz##[href="/url.html"]
+
+! 2020-10-03 https://news.tokimeki-s.com
+||tokimeki-s.com/r1.html$subdocument
+||tokimeki-s.com/l1.html$subdocument
+||tokimeki-s.com/r_bottom.html$subdocument
+||tokimeki-s.com/l2.html$subdocument
+
+! 2020-10-06 https://ja.torrentkitty.net
+ja.torrentkitty.net##.modal.in.nordvpn-popup--v12.nordvpn-popup.fade
+
+! 2020-10-06 https://tw.torrentkitty.net
+tw.torrentkitty.net##.nordvpn-popup
+
+! 2020-10-09 https://mengmiandaxia.com
+||cdn.jsdelivr.net/gh/mmdxcdn/s/ad/2020101002.jpg$image
+mengmiandaxia.com##[href="https://s.click.taobao.com/X7dWhvu"]
+
+! 2020-10-09 https://south-plus.org
+||south-plus.org/attachment/Mon_2010/11_168153_098821d8c890376.png$image
+
+||hxcpp17.com
+||hxcpp18.com
+
+! 2020-10-14 http://1090ys1.com
+1090ys1.com###HMRichBox
+
+! 2020-10-16 https://search.bilibili.com
+search.bilibili.com##.activity-item
+search.bilibili.com##.loc-mc-box
+search.bilibili.com##.van-popover__reference.link:has-text(APP)
+
+! 2020-10-16 bde4.com
+@@||cdn.jsdelivr.net/gh/bde4admin/v3@2.3.8/js/prebid-ads.js$script,domain=bde4.com
+
+! 2020-10-16 https://bde4.com
+bde4.com##[href="https://www.yabo816.com"]
+
+! 2020-10-19 https://www.bilibili.com
+www.bilibili.com##.banner-link
+||i0.hdslb.com/bfs/archive/*.png$image
+www.bilibili.com##.head-title
+||i0.hdslb.com/bfs/archive/*.png$image
+
+! 2020-10-20 https://www.bilibili.com
+www.bilibili.com##.btn-pay
+||s1.hdslb.com/bfs/static/pgcv/asserts/func-icon-pay.png$image
+www.bilibili.com##.pay-bar
+www.bilibili.com##.btn-sponsor
+www.bilibili.com##.share-info
+
+! 2020-10-23 https://www.appinn.com
+www.appinn.com##.alignnone
+
+! 2020-10-26 https://blog.csdn.net
+blog.csdn.net##.triplet-prompt
+blog.csdn.net##.active.company
+blog.csdn.net##.first-recommend-box
