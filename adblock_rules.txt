@@ -3,7 +3,7 @@
 ! Title: adblock_rules by light
 ! Expires: 1 days
 ! Redirect: https://raw.githubusercontent.com/LightAPIs/adblock_rules/master/adblock_rules.txt
-! version: 2020.11.09.0
+! version: 2021.03.10.0
 
 
 ! 通用隐藏 2019.10.2
@@ -1465,3 +1465,232 @@ www.3dmgame.com##[href="https://yx.3dmgame.com"]
 
 ! 反广告检测
 mengmiandaxia.com#@#.app-download
+
+! 2020-11-12 https://www.to8to.com
+www.to8to.com##.bottom_slide_content
+
+! 2020-11-12 https://www.miguvideo.com
+www.miguvideo.com##.top > .center
+www.miguvideo.com##.top > .right
+
+! 2020-11-12 baidu.com
+! 阻止加载百度百科里的视频
+||baikevideo.cdn.bcebos.com/media/*$xhr,domain=baike.baidu.com
+
+! 2020-11-13 https://fuliba2020.net
+fuliba2020.net##[href="http://www.sstagweb.cn/"]
+fuliba2020.net##[href="http://quan.fulibus.net"]
+
+! 2020-11-13 https://www.3dmgame.com
+www.3dmgame.com##[href="https://yx.3dmgame.com/"]
+www.3dmgame.com##[href="https://survey.163.com/htmls/efqd0g/paper.html"]
+www.3dmgame.com##.news_ico
+
+||skidrowcracked.com
+||sc-contentlocker.com
+
+! 2020-11-16 https://www.infoq.cn
+www.infoq.cn##.widget-slide-weekly
+www.infoq.cn##.live-fixed-bar
+
+||warning.or.kr
+
+! 2020-11-17 https://aa1805.com
+aa1805.com###friendLink
+aa1805.com###partner
+aa1805.com##.CN_qmvtoy
+
+! 2020-11-18 https://www.agefans.tv
+www.agefans.tv##.app-dl
+
+! 2020-11-19 https://www.xstui.com
+www.xstui.com##[href^="https://ai.taobao.com/search/index.htm"]
+||encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQJh4NDzEOxPE2mmWKhjhqwnG8IVPTHZSmiSn7jyiMGg3FOOUaAeJLo_jER$image
+
+! 2020-11-19 https://www.prohui.com
+www.prohui.com##.login-wrap
+
+/hxcbb\d+.com/
+
+! 2020-11-24 https://www.423down.com
+www.423down.com##[href^="https://mp.weixin.qq.com/"]
+
+! 2020-11-25 https://www.xstui.com
+www.xstui.com##[href^="https://s.click.taobao.com/t"]
+
+! 2020-11-27 https://mengmiandaxia.com
+||cdn.jsdelivr.net/gh/mmdxcdn/s/play.gif$image
+
+! 2020-11-28 https://www.agefans.net
+www.agefans.net##.app-dl > [href="https://www.agefans.app"]
+
+! 2020-11-28 https://javdb.com
+javdb.com##.app-desktop-banner
+
+! 2020-11-29 https://www.jianshu.com
+www.jianshu.com##div[role]:has-text(抽奖)
+
+! 2020-11-30 https://www.antdv.com
+||qn.antdv.com/yideng4.png$image
+
+! 2020-12-02 https://aotu.io
+||aotu.io/img/qrcode.jpg$image
+
+! 2020-12-05 https://post.smzdm.com
+post.smzdm.com###articleId > blockquote
+
+! 2020-12-05 https://www.r18.com
+||pics.r18.com/r18/*_zh.jpg$image
+
+! 2020-12-08 https://www.bilibili.com
+www.bilibili.com##.vcd
+
+! 2020-12-08 https://www.jav777.xyz
+www.jav777.xyz##[href*="https://dourl.cc/"]
+
+/hxcpp\d+.com/
+
+! 2020-12-10 https://wenku.baidu.com
+wenku.baidu.com##.pager-container
+wenku.baidu.com##.fufei-activity-bar
+
+! 2020-12-10 https://www.xstui.com
+||www.xstui.com/img/tg/2.jpg$image
+www.xstui.com###tbSearch
+
+! 测试语法
+! baidu.com##[class^="s-tab-item"][class*="s-tab-video"]
+
+! 2020-12-12 https://av1688.cc
+av1688.cc##.layui-layer-border.layui-layer-iframe.layui-layer
+
+! 2020-12-13 http://tool.chinaz.com
+tool.chinaz.com##.topTsRight
+
+! 2020-12-16 https://www.antdv.com
+||yidengfe.com/launches/01/yd.png$image
+
+! 2020-12-21 https://brushes8.com
+brushes8.com##.zjianad6
+brushes8.com##table
+brushes8.com##.zan-article > p
+brushes8.com##blockquote
+
+! 2020-12-22 https://www.bilibili.com
+||i0.hdslb.com/bfs/archive/d44ea0b0f1fc5e08fb1c9c81e6b86d72ea165f04.jpg$image
+www.bilibili.com##.ad-report
+
+! 2020-12-22 https://www.423down.com
+www.423down.com##[href*="https://app.weilian.xin/"]
+
+! 2020-12-23 https://www.423down.com
+www.423down.com##a:has-text(饭团看书)
+www.423down.com##[href="https://www.o8tv.com/"]
+
+! 2020-12-24 https://www.sugarhosts.com
+||www.sugarhosts.com/images/affiliate/affiliate-joinus-zh.jpg$image
+
+! 2020-12-25 https://www.jav777.xyz
+||www.520cc.show/wp-content/uploads/*350x230.jpg$image
+www.jav777.xyz##[href^="https://www.520cc.show/"]
+
+! 2020-12-30 https://www.baidu.com
+www.baidu.com##.FYB_RD
+
+! 2020-12-31 https://w.mgtv.com
+w.mgtv.com##.m-agreement-mask
+
+! 2021-01-05 https://www.cnblogs.com
+www.cnblogs.com##.waifu
+
+! 2021-01-06 https://www.chensheng.group
+www.chensheng.group###waifu
+
+! 2021-01-06 https://www.appinn.com
+www.appinn.com###iranshownow
+
+! 2021-01-07 https://czsp3.com
+||img-cf-orange.tom331.com/media_orange/*.gif$image
+czsp3.com##.iswindow
+
+! 2021-01-10 https://segmentfault.com
+segmentfault.com##.show.modal.fade
+
+! 2021-01-10 http://www.axios-js.com
+www.axios-js.com##.vultr-desc
+www.axios-js.com##.article-content > [href^="https://www.vultr.com/"]
+www.axios-js.com##[href^="https://mobile.yangkeduo.com/app.html"]
+
+! 2021-01-13 https://czsp3.com
+czsp3.com##.qr_code
+
+! 2021-01-15 https://bbs.kafan.cn
+||i.loli.net/2018/11/24/5bf8fd7c46dd8.png$image
+
+! 2021-01-16 https://cloud.tencent.com
+cloud.tencent.com##.com-activity-popup
+cloud.tencent.com##.com-activity-popup-mask
+cloud.tencent.com##.com-activity-widget-main
+cloud.tencent.com##.com-activity-widget
+
+! ddrk 触发反广告规则
+! ddrk.me#@#a[href="###"] img:not(#trk_hcaptcha):not([src^="https://captcha.su.baidu.com"])
+
+! 2021-01-20 https://www.jav777.xyz
+||www.520cc.net/wp-content/uploads/2020/12/*.jpg$image
+www.jav777.xyz##[href^="https://www.520cc.net/"]
+
+! 2021-01-22 https://juejin.cn
+juejin.cn##.recommend-box
+
+! 2021-01-22 https://www.nanrenlequ.com
+www.nanrenlequ.com##[href="https://www.nanrenlequ.com/go/luntan"]
+
+! 2021-01-23 https://www.paofans.com
+www.paofans.com##[href="http://download.paofans.com/"]
+
+! 2021-01-23 https://juejin.cn
+juejin.cn##.activity-recommend
+
+! 2021-01-25 https://juejin.cn
+juejin.cn##.activity-entry
+
+! 2021-01-28 https://day.js.org
+||s3.ax1x.com/2021/01/10/sler7t.png$image
+
+! 2021-02-02 http://www.dayanzai.me
+||www.dayanzai.me/image/ad/gongzhonghao.png$image
+
+! 2021-02-05 https://duonaolive.com
+duonaolive.com##[href^="https://www.xvbelink.com/"]
+
+! 2021-02-15 http://jav-free.org
+jav-free.org##div:has(.emoji)
+
+! 2021-02-22 https://www.shenma4480.com
+www.shenma4480.com##.layer
+www.shenma4480.com###globalAd
+
+! 2021-02-26 https://xinghe.tv
+||xh-img-pullzone-888.b-cdn.net/special/hth_50_deposit_url.jpg$image
+
+! 2021-03-01 https://abc5200.com
+||chrome78.pw/*.gif$image
+
+! 2021-03-03 https://www.bilibili.com
+||i0.hdslb.com/bfs/feed-admin/*.png$image
+
+! 2021-03-04 https://www.423down.com
+www.423down.com##li:has-text(正规推广)
+
+! 2021-03-05 https://www.mpyit.com
+www.mpyit.com##[href^="https://www.aiviy.com/"]
+
+! 2021-03-07 https://www.423down.com
+www.423down.com##li:has-text(优惠活动)
+
+! 2021-03-08 https://tmioe.com
+tmioe.com##.ancr-sticky
+
+! 谷歌搜索关闭建议的跟进内容
+google.com##div:has(:scope > div > div > div > div > div.exp-c)
