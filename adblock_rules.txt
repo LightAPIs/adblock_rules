@@ -3,7 +3,7 @@
 ! Title: adblock_rules by light
 ! Expires: 1 days
 ! Redirect: https://raw.githubusercontent.com/LightAPIs/adblock_rules/master/adblock_rules.txt
-! version: 2021.03.10.0
+! version: 2021.03.10.1
 
 
 ! 通用隐藏 2019.10.2
@@ -1693,4 +1693,5 @@ www.423down.com##li:has-text(优惠活动)
 tmioe.com##.ancr-sticky
 
 ! 谷歌搜索关闭建议的跟进内容
-google.com##div:has(:scope > div > div > div > div > div.exp-c)
+! google.com##div:has(:scope > div > div > div > div > div.exp-c)
+google.com##div.g > div > div:has(div.exp-c)
