@@ -3,7 +3,7 @@
 ! Title: adblock_rules by light
 ! Expires: 1 days
 ! Redirect: https://raw.githubusercontent.com/LightAPIs/adblock_rules/master/adblock_rules.txt
-! version: 2021.03.10.1
+! version: 2021.04.20.0
 
 
 ! 通用隐藏 2019.10.2
@@ -102,7 +102,6 @@ fuliba2020.net##li:has(> [href*="/bitqiu.html"])
 
 ! 福利吧论坛 2019.10.2
 ##[href^="http://www.niuza.com/"]
-##[href="http://ww3.sinaimg.cn/mw690/006a0xdJgw1faxk6j4yusj30by0byq4i.jpg"]
 ##[href="http://weibo.com/u/6073730937"]
 wnflb66.com##.GzList
 wnflb66.com##[href*="plugin.php?id=alipaybuygroup"]
@@ -298,16 +297,13 @@ v.qq.com##.mod_scene_change
 sports.qq.com##.activity-notice
 
 ! 英雄联盟 2019.10.5
-||game.gtimg.cn/images/lpl/es/web201612/*g
 lpl.qq.com###top_gg_pic
 lpl.qq.com##.modeBanner
 lpl.qq.com###float
 
 ! 殁漂遥 2019.10.2
-||i.loli.net/2019/10/11/gKzuqMiDpAV2Y1B.gif$image
 ##[href="http://www.404le.com/"]
 mpyit.com##[href*="http://soulemo.com/"]
-mpyit.com##[href="https://wx4.sinaimg.cn/large/4c929964ly1furs0a32ulj20ln0cljtl.jpg"]
 mpyit.com##[href*="https://www.404le.com"]
 mpyit.com##[href="https://www.mpyit.com/buyidm.html"]
 mpyit.com##[href="https://www.mpyit.com/buyoffice.html"]
@@ -329,7 +325,6 @@ w3school.com.cn###sp_header
 
 ! 141JJ 2019.10.2
 ||seal.godaddy.com^$script,image,domain=141jj.com
-||upload.cc/i1/2019/09/09/OP6atw.gif$image
 
 ! javlibrary 2019.10.2
 javlibrary.com###bottombanner12
@@ -424,7 +419,6 @@ bugscaner.com###item-box
 ! 2019/10/8 http://lol.qq.com
 lol.qq.com##.head-app-normal
 
-
 ! 2019/10/13 http://ddrk.me
 ||img.ddrk.me/close-xunlei.jpg$image
 
@@ -435,7 +429,6 @@ acgmu.ml##.d-lg-block.d-none.btn.col-lg-9.card
 ||360xixi.com/images/rizhuan.gif$image
 
 ! 2019/10/16 http://ncurobot.club:8080
-||ncurobot.club:8080/imgs/qrcode2.jpeg$image
 ||ncurobot.club:8080/imgs/qrcode*.jp*g$image
 
 ! 2019/10/17 https://cnsexy.cc
@@ -450,17 +443,13 @@ javhoo.com##.pop
 ! 2019/10/17 https://www.777x.com
 ||www.777x.com/static/prime_300x100.gif$image
 
-! 2019/10/17 https://adult.contents.fc2.com
-||static.fc2id.com/contents/images/ZQEJVWJ2Z/c6A/XEsbXgrg.png$image
-
 ! 2019/10/18 https://www.mgstage.com
 ||static.mgstage.com/mgs/img/pc/superch_detail_banner.jpg$image
 
 ! 2019/10/19 https://7mmtv.tv
-||ww7814.win/pic_7mm/20191010193651__117.gif$image
-||file2.7mmtv.tv/91_banner/91_2_2.gif$image
+||ww7814.win/pic_7mm/*.gif$image
+||file2.7mmtv.tv/91_banner/*.gif$image
 ||file.7mmtv.tv/u_banner/*.gif$image
-
 
 ! 2019/10/21 https://www.jav321.com
 jav321.com###video_overlay_sample
@@ -483,7 +472,6 @@ sports.qq.com##.feedback
 ! 2019/10/25 https://7mmtv.tv
 7mmtv.tv###menu_show
 7mmtv.tv##.cpm_banner
-||file2.7mmtv.tv/91_banner/91_2_1.gif$image
 
 ! 2019/10/25 http://www.xiaobi003.com
 www.xiaobi003.com##.table
@@ -546,9 +534,6 @@ www.baike567.com##.category
 www.wuhaozhan.net##[href="http://www.xsldh.vip"]
 www.wuhaozhan.net##.home-list-1988
 
-! 2019/11/20 https://www.yingyinwu.com
-||s2.ax1x.com/2019/11/14/MNdo24.gif$image
-
 ! 2019/11/21 https://www.kkw360.com
 www.kkw360.com###showXFC
 
@@ -566,9 +551,8 @@ www.playno1.com##[href^="http://www.playno1.com/spider/detector.php"]
 www.wuhaozhan.net##[href*="www.wuhaozhan.net/movie/zfbshf.php"]
 
 ! 2019/11/28 https://www.meituri.com
-||ii.hywly.com/css/ylyewm.gif$image
-||ii.hywly.com/ad/tjd.jpg$image
-||ii.hywly.com/ad/yly8.jpg$image
+||ii.hywly.com/css/*.gif$image
+||ii.hywly.com/ad/*.jpg$image
 
 ! 2019/11/28 https://nba.hupu.com
 nba.hupu.com##.item-flag.select-item
@@ -766,15 +750,6 @@ www.kan-tv.com##.ADTOPLB_963
 ! 2020/2/4 https://www.423down.com
 www.423down.com##[href="https://www.ntaow.com/shenquan.html"]
 
-! 2020/2/4 http://1090ys.com
-1090ys.com##[src="https://ae01.alicdn.com/kf/Hf39d390cab89484283395b122a18769ab.jpg"]
-
-! 2020/2/4 https://ddrk.me
-||vip1.loli.net/2019/12/30/OdEreLgZKGABChc.jpg$image
-
-! 2020/2/6 http://1090ys1.com
-||ae01.alicdn.com/kf/Hf39d390cab89484283395b122a18769ab.jpg$image
-
 ! 去屏蔽 2020.2.6
 www.wanmeikk.me#@#.clearfix.stui-pannel-box
 wuhaozhan.net#@#.pure-u-md-8-24 iframe
@@ -802,7 +777,6 @@ www.50s.wang##[href="http://tao.50s.cc"]
 www.50s.wang##div:has( > a[href*="tao.50s.cc"])
 
 ! 2020/2/12 https://shimo.im
-||uploader.shimo.im/f/SlLEatN7zEsc7LFE.gif$image
 shimo.im##strong:has-text(红包)
 
 ||sd173.com
@@ -847,9 +821,6 @@ www.88btbtt.com##.error
 ||i.loli.net/*.gif$image,domain=magnet2048.com
 magnet2048.com##a.hotwords
 magnet2048.com##.center.downbutton
-
-! 2020/2/25 https://ddrk.me
-||ae01.alicdn.com/kf/Hba2d3a9c05334715a2eadddb84dbd5dbt.png$image
 
 ! 2020/2/29 https://av.bowan.su
 av.bowan.su##div.ad-box-970-120
@@ -1050,9 +1021,6 @@ www.3dmgame.com##.on.countdowntime
 ! 2020/6/7 http://18av.mm-cg.com
 18av.mm-cg.com##.ut_ad_box
 
-! 2020/6/7 https://south-plus.org
-||south-plus.org//attachment/Mon_2006/11_168153_0838a5a027bbaf9.png$image
-
 ! 2020/6/11 https://www.ourocg.cn
 www.ourocg.cn##[src="//static.ourocg.cn/images/WeChat.jpg"]
 
@@ -1247,9 +1215,6 @@ bbs.csdn.net##.login-mark
 ! 2020-08-31 https://bbs.hupu.com
 bbs.hupu.com##.hp-pc-menu-game-center
 
-! 2020-08-31 https://giftujie666.com
-||ww1.sinaimg.cn/large/006F5YOCly1fdouwu89epj30go0rsq7q$image
-
 ! 2020-09-05 http://www.yy8844.cn
 www.yy8844.cn###ad_piao
 
@@ -1328,7 +1293,6 @@ www.jsphp.net###rightBtmAdClose
 www.jsphp.net##.widget_tuijian
 
 ! 2020-09-24 https://cuiqingcai.com
-||qiniu.cuiqingcai.com/wp-content/uploads/2017/05/qrcode_for_gh_5b0546ddd2d0_430.jpg$image
 cuiqingcai.com###qrcodes
 
 ! 2020-09-25 https://pc.0ady.me
@@ -1386,11 +1350,7 @@ ja.torrentkitty.net##.modal.in.nordvpn-popup--v12.nordvpn-popup.fade
 tw.torrentkitty.net##.nordvpn-popup
 
 ! 2020-10-09 https://mengmiandaxia.com
-||cdn.jsdelivr.net/gh/mmdxcdn/s/ad/2020101002.jpg$image
 mengmiandaxia.com##[href="https://s.click.taobao.com/X7dWhvu"]
-
-! 2020-10-09 https://south-plus.org
-||south-plus.org/attachment/Mon_2010/11_168153_098821d8c890376.png$image
 
 ||hxcpp17.com
 ||hxcpp18.com
@@ -1505,7 +1465,6 @@ www.agefans.tv##.app-dl
 
 ! 2020-11-19 https://www.xstui.com
 www.xstui.com##[href^="https://ai.taobao.com/search/index.htm"]
-||encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQJh4NDzEOxPE2mmWKhjhqwnG8IVPTHZSmiSn7jyiMGg3FOOUaAeJLo_jER$image
 
 ! 2020-11-19 https://www.prohui.com
 www.prohui.com##.login-wrap
@@ -1526,9 +1485,6 @@ www.agefans.net##.app-dl > [href="https://www.agefans.app"]
 
 ! 2020-11-28 https://javdb.com
 javdb.com##.app-desktop-banner
-
-! 2020-11-29 https://www.jianshu.com
-www.jianshu.com##div[role]:has-text(抽奖)
 
 ! 2020-11-30 https://www.antdv.com
 ||qn.antdv.com/yideng4.png$image
@@ -1577,7 +1533,6 @@ brushes8.com##.zan-article > p
 brushes8.com##blockquote
 
 ! 2020-12-22 https://www.bilibili.com
-||i0.hdslb.com/bfs/archive/d44ea0b0f1fc5e08fb1c9c81e6b86d72ea165f04.jpg$image
 www.bilibili.com##.ad-report
 
 ! 2020-12-22 https://www.423down.com
@@ -1623,9 +1578,6 @@ www.axios-js.com##[href^="https://mobile.yangkeduo.com/app.html"]
 
 ! 2021-01-13 https://czsp3.com
 czsp3.com##.qr_code
-
-! 2021-01-15 https://bbs.kafan.cn
-||i.loli.net/2018/11/24/5bf8fd7c46dd8.png$image
 
 ! 2021-01-16 https://cloud.tencent.com
 cloud.tencent.com##.com-activity-popup
@@ -1695,3 +1647,17 @@ tmioe.com##.ancr-sticky
 ! 谷歌搜索关闭建议的跟进内容
 ! google.com##div:has(:scope > div > div > div > div > div.exp-c)
 google.com##div.g > div > div:has(div.exp-c)
+
+! 2021-04-01 https://www.423down.com
+www.423down.com##li:has-text(VIP限免)
+www.423down.com##li:has-text(特价活动)
+www.423down.com##li:has-text(送1年)
+
+! 2021-04-08 https://www.zxzj.me
+||tva3.sinaimg.cn/large/*.gif$image
+
+! 2021-04-12 https://www.423down.com
+www.423down.com##[href^="https://wps.browser.360.cn/"]
+
+! 2021-04-15 https://blog.csdn.net
+blog.csdn.net##.csdn-shop-window-common
