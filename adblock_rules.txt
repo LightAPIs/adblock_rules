@@ -3,7 +3,7 @@
 ! Title: adblock_rules by light
 ! Expires: 1 days
 ! Redirect: https://raw.githubusercontent.com/LightAPIs/adblock_rules/master/adblock_rules.txt
-! version: 2021.04.20.0
+! version: 2021.05.29.0
 
 
 ! 通用隐藏 2019.10.2
@@ -1661,3 +1661,54 @@ www.423down.com##[href^="https://wps.browser.360.cn/"]
 
 ! 2021-04-15 https://blog.csdn.net
 blog.csdn.net##.csdn-shop-window-common
+
+! 2021-04-22 https://south-plus.org
+||south-plus.org/attachment/*.png$image
+
+||520cc.show
+||520cc.net
+
+! 2021-04-26 https://ddrk.me
+ddrk.me##.cfa_popup
+
+! 2021-04-29 https://www.423down.com
+www.423down.com##li:has-text(优惠推荐)
+
+||xujiahua.com
+
+! 2021-05-06 https://www.zxzj.me
+www.zxzj.me##.img-responsive
+
+! 2021-05-10 https://www.nfmovies.com
+www.nfmovies.com##[href^="https://nf.brushshopy.com/"]
+
+! 2021-05-11 https://www.xstui.com
+||cpu.baidu.com/block/pc/*$subdocument
+
+! 2021-05-15 https://fcww35.com
+fcww35.com##.layer-anim-01
+fcww35.com###layui-layer-shade1
+
+! 2021-05-20 https://www.423down.com
+||www.423down.com/wp-content/*.gif$image
+
+! 2021-05-22 http://tool.manmanbuy.com
+tool.manmanbuy.com##.right_app_down
+tool.manmanbuy.com##.app-activity-download
+tool.manmanbuy.com##[href^="http://home.manmanbuy.com/app.aspx"]
+||tool.manmanbuy.com/images/11.png$image
+tool.manmanbuy.com##.a-qr
+tool.manmanbuy.com##.downAPP
+
+! 2021-05-26 https://www.bootcdn.cn
+||www.bootcdn.cn/assets/img/aliyun.jpg$image
+www.bootcdn.cn##a.library.list-group-item
+
+! 2021-05-26 https://mergeek.com
+mergeek.com##.svq-promo-tip
+
+! 2021-05-26 http://www.jsxiaoshi.com
+www.jsxiaoshi.com##.slide.carousel
+
+! 2021-05-28 https://gracg.com
+gracg.com##.overflow-hidden.rounded
