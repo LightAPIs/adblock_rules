@@ -1,20 +1,20 @@
 {
-	"request": [
-		{
-			"enable": true,
-			"name": "hCaptcha - redirect to en",
-			"ruleType": "redirect",
-			"matchType": "regexp",
-			"pattern": "https?://newassets\\.hcaptcha\\.com/captcha/v1/\\w+/hcaptcha-(?:checkbox|challenge)\\.js",
-			"exclude": "",
-			"group": "重定向",
-			"isFunction": true,
-			"action": "redirect",
-			"to": "",
-			"code": "return `https://cdn.jsdelivr.net/gh/LightAPIs/adblock_rules@b73bd479ee83774958d968062124b3c3d23e5137/hcaptcha-${val.includes('checkbox') ? 'checkbox' : 'challenge'}-mod.js`"
-		}
-	],
-	"sendHeader": [],
-	"receiveHeader": [],
-	"receiveBody": []
+  "request": [
+    {
+      "enable": true,
+      "name": "hCaptcha - redirect to en",
+      "ruleType": "redirect",
+      "matchType": "regexp",
+      "pattern": "https?://newassets\\.hcaptcha\\.com/captcha/v1/\\w+/hcaptcha-(?:checkbox|challenge)\\.js",
+      "exclude": "",
+      "group": "重定向",
+      "isFunction": true,
+      "action": "redirect",
+      "to": "",
+      "code": "return `https://cdn.jsdelivr.net/gh/LightAPIs/adblock_rules@61b7b4918171f1e6943acbe35a65d41ce3a35396/hcaptcha-${val.includes('checkbox') ? 'checkbox' : 'challenge'}-mod.js`"
+    }
+  ],
+  "sendHeader": [],
+  "receiveHeader": [],
+  "receiveBody": []
 }
