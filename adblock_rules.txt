@@ -3,7 +3,7 @@
 ! Title: adblock_rules by light
 ! Expires: 1 days
 ! Redirect: https://raw.githubusercontent.com/LightAPIs/adblock_rules/master/adblock_rules.txt
-! version: 2021.05.29.0
+! version: 2021.07.04.0
 
 
 ! 通用隐藏 2019.10.2
@@ -1646,7 +1646,7 @@ tmioe.com##.ancr-sticky
 
 ! 谷歌搜索关闭建议的跟进内容
 ! google.com##div:has(:scope > div > div > div > div > div.exp-c)
-google.com##div.g > div > div:has(div.exp-c)
+! google.com##div.g > div > div:has(div.exp-c)
 
 ! 2021-04-01 https://www.423down.com
 www.423down.com##li:has-text(VIP限免)
@@ -1712,3 +1712,39 @@ www.jsxiaoshi.com##.slide.carousel
 
 ! 2021-05-28 https://gracg.com
 gracg.com##.overflow-hidden.rounded
+
+! 2021-05-29 https://www.nfmovies.com
+www.nfmovies.com##body > .hidden-xs
+
+! 2021-05-30 https://fuliba2021.net
+fuliba2021.net##.alignnone
+fuliba2021.net##.widget_ui_slider.widget.widget-on-phone
+
+! 2021-05-31 https://www.nfmovies.com
+www.nfmovies.com###note
+
+! 2021-06-10 http://tool.manmanbuy.com
+tool.manmanbuy.com##.right_alert_show.right_alert
+
+! 2021-06-13 https://www.423down.com
+www.423down.com##[href^="https://ibaotu.com"]
+
+! 2021-06-13 https://www.mgtv.com
+www.mgtv.com##.m-top-ad-show.m-top-ad
+
+! 2021-06-15 https://ddrk.me
+||ddrk.me/mtp/0611_h.jpg$image
+
+! 2021-06-19 http://bukanqiu.com
+bukanqiu.com##div:has-text(返利)
+
+! 2021-06-28 https://www.iplaysoft.com
+www.iplaysoft.com##[href="https://www.iplaysoft.com/p/oculus-quest2"]
+
+! 2021-06-29 https://tv.sohu.com
+tv.sohu.com##div.modAdv
+
+! 2021-07-04 http://24mail.chacuo.net
+||www.chacuo.net/images/others/howssl.gif$image
+24mail.chacuo.net##.tip
+
